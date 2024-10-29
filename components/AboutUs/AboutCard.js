@@ -15,7 +15,6 @@ function AboutCard({ image, descriptions }) {
   const handleMouseEnter = () => {
     setCurrentIndex(0); 
   };
-
   return (
     <Card
       sx={{
