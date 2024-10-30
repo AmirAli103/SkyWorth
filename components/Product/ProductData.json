@@ -6,29 +6,59 @@
       "price": "$1,199.00 - $1,599.00",
       "overview": "The Skyworth QLED Mini series delivers a top-tier viewing experience with vivid colors, enhanced brightness, and crystal-clear clarity from every angle. Its sleek, slim-bezel design enhances the visual appeal, offering a stunningly immersive display. Powered by Google TV, you can effortlessly access your favorite apps, movies, and shows. With built-in Google Assistant and a Bluetooth voice remote, controlling your TV and managing tasks is as easy as speaking a command. Sit back, relax, and dive into endless entertainment with the perfect combination of technology and style.",
       "specifications": [
-        { "title": "Screen Resolution", "detail": "QLED Mini 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "144Hz" },
-        { "title": "Peak Brightness", "detail": "400-600 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 3GB, ROM: 32GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A73*4 processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1453*290*881, Without stand (WxHxD) 1453*88*845" }
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED Mini 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "144Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "400-600 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 3GB, ROM: 32GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A73*4 processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1453*290*881, Without stand (WxHxD) 1453*88*845"
+        }
       ],
       "downloads": "Downloads content goes here. Provide users with downloadable resources like manuals or software.",
       "image": [
         "./../../assets/LedInterface/QLED_MINI_X8700G/front.jpg",
         "./../../assets/LedInterface/QLED_MINI_X8700G/left.jpg",
-         "./../../assets/LedInterface/QLED_MINI_X8700G/right.jpg"
+        "./../../assets/LedInterface/QLED_MINI_X8700G/right.jpg"
       ],
       "features": [
         "Dolby Vision & Atmos",
         "Dolby Audio",
         "Google TV",
         "HDR10+",
-        "144Hzs"
+        "144Hz"
       ],
       "resolution": "QLED MINI",
       "productSize": "65 inches",
@@ -36,7 +66,7 @@
       "featurelist": [
         "Resolution: QLED Mini",
         "Refresh Rate: 144Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -47,19 +77,19 @@
       ],
       "detailImages": [
         "./../../assets/Banner/QLEDMini65X8700G/Image1.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image2.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image3.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image4.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image5.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image6.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image7.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image8.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image9.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image10.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image11.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image12.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image13.png",
-       "./../../assets/Banner/QLEDMini65X8700G/Image14.png"
+        "./../../assets/Banner/QLEDMini65X8700G/Image2.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image3.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image4.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image5.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image6.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image7.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image8.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image9.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image10.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image11.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image12.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image13.png",
+        "./../../assets/Banner/QLEDMini65X8700G/Image14.png"
       ]
     },
     {
@@ -69,14 +99,14 @@
       "image": [
         "./../../assets/LedInterface/QLED_MINI_X8700G/front.jpg",
         "./../../assets/LedInterface/QLED_MINI_X8700G/left.jpg",
-         "./../../assets/LedInterface/QLED_MINI_X8700G/right.jpg"
+        "./../../assets/LedInterface/QLED_MINI_X8700G/right.jpg"
       ],
       "resolution": "QLED MINI",
       "productSize": "75 inches",
       "featurelist": [
-       "Resolution: QLED Mini",
+        "Resolution: QLED Mini",
         "Refresh Rate: 144Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -85,41 +115,71 @@
         "Dolby Vision & Atmos",
         "Subwoofer"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED Mini 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "144Hz" },
-        { "title": "Peak Brightness", "detail": "400-600 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 3GB, ROM: 32GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A73*4 processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1675*330*1008, Without stand (WxHxD) 1675*88*973" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED Mini 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "144Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "400-600 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 3GB, ROM: 32GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A73*4 processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1675*330*1008, Without stand (WxHxD) 1675*88*973"
+        }
+      ],
       "features": [
         "Dolby Vision & Atmos",
         "Dolby Audio",
         "Google TV",
         "HDR10+",
-        "144Hzs"
+        "144Hz"
       ],
       "overview": "The Skyworth QLED Mini series delivers a top-tier viewing experience with vivid colors, enhanced brightness, and crystal-clear clarity from every angle. Its sleek, slim-bezel design enhances the visual appeal, offering a stunningly immersive display. Powered by Google TV, you can effortlessly access your favorite apps, movies, and shows. With built-in Google Assistant and a Bluetooth voice remote, controlling your TV and managing tasks is as easy as speaking a command. Sit back, relax, and dive into endless entertainment with the perfect combination of technology and style.",
       "detailImages": [
         "./../../assets/Banner/QLEDMini75X8700G/Image1.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image2.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image3.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image4.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image5.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image6.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image7.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image8.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image9.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image10.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image11.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image12.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image13.png",
-       "./../../assets/Banner/QLEDMini75X8700G/Image14.png"
+        "./../../assets/Banner/QLEDMini75X8700G/Image2.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image3.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image4.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image5.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image6.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image7.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image8.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image9.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image10.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image11.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image12.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image13.png",
+        "./../../assets/Banner/QLEDMini75X8700G/Image14.png"
       ]
     },
     {
@@ -129,7 +189,7 @@
       "featurelist": [
         "Resolution: QLED",
         "Refresh Rate: 120~144Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -146,41 +206,72 @@
       "resolution": "QLED",
       "overview": "The Skyworth QLED series delivers a top-tier viewing experience with vivid colors, enhanced brightness, and crystal-clear clarity from every angle. Its sleek, slim-bezel design enhances the visual appeal, offering a stunningly immersive display. Powered by Google TV, you can effortlessly access your favorite apps, movies, and shows. With built-in Google Assistant and a Bluetooth voice remote, controlling your TV and managing tasks is as easy as speaking a command. Sit back, relax, and dive into endless entertainment with the perfect combination of technology and style.",
       "productSize": "100 inches",
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "120/144Hz" },
-        { "title": "Peak Brightness", "detail": "400-600 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 3GB, ROM: 32GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A73*4 processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 5 x 15W + 20W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 2414*342*1455, Without stand (WxHxD) 2238.5*1286*90.5" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "120/144Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "400-600 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 3GB, ROM: 32GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A73*4 processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 5 x 15W + 20W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 2414*342*1455, Without stand (WxHxD) 2238.5*1286*90.5"
+        }
+      ],
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Dolby Audio",
         "Google TV",
         "HDR10+",
-        "144Hzs",
-        "120Hzs"
+        "144Hz",
+        "120Hz"
       ],
       "detailImages": [
         "./../../assets/Banner/QLED100Q7800G/Image1.png",
-       "./../../assets/Banner/QLED100Q7800G/Image2.png",
-       "./../../assets/Banner/QLED100Q7800G/Image3.png",
-       "./../../assets/Banner/QLED100Q7800G/Image4.png",
-       "./../../assets/Banner/QLED100Q7800G/Image5.png",
-       "./../../assets/Banner/QLED100Q7800G/Image6.png",
-       "./../../assets/Banner/QLED100Q7800G/Image7.png",
-       "./../../assets/Banner/QLED100Q7800G/Image8.png",
-       "./../../assets/Banner/QLED100Q7800G/Image9.png",
-       "./../../assets/Banner/QLED100Q7800G/Image10.png",
-       "./../../assets/Banner/QLED100Q7800G/Image11.png",
-       "./../../assets/Banner/QLED100Q7800G/Image12.png",
-       "./../../assets/Banner/QLED100Q7800G/Image13.png",
-       "./../../assets/Banner/QLED100Q7800G/Image14.png"
+        "./../../assets/Banner/QLED100Q7800G/Image2.png",
+        "./../../assets/Banner/QLED100Q7800G/Image3.png",
+        "./../../assets/Banner/QLED100Q7800G/Image4.png",
+        "./../../assets/Banner/QLED100Q7800G/Image5.png",
+        "./../../assets/Banner/QLED100Q7800G/Image6.png",
+        "./../../assets/Banner/QLED100Q7800G/Image7.png",
+        "./../../assets/Banner/QLED100Q7800G/Image8.png",
+        "./../../assets/Banner/QLED100Q7800G/Image9.png",
+        "./../../assets/Banner/QLED100Q7800G/Image10.png",
+        "./../../assets/Banner/QLED100Q7800G/Image11.png",
+        "./../../assets/Banner/QLED100Q7800G/Image12.png",
+        "./../../assets/Banner/QLED100Q7800G/Image13.png",
+        "./../../assets/Banner/QLED100Q7800G/Image14.png"
       ]
     },
     {
@@ -189,16 +280,17 @@
       "overview": "The Skyworth QLED series offers an unparalleled visual experience with brilliant colors and exceptional brightness, all housed in a sleek, slim-bezel design. Powered by Google TV, it provides seamless access to your favorite apps, shows, and movies. With built-in Google Assistant and a Bluetooth voice remote, you can effortlessly control your entertainment and manage tasks hands-free, delivering a smarter, more intuitive viewing experience.",
       "price": "$399.00",
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Google TV",
         "Dolby Audio",
         "HDR10+",
-        "60Hzs"
+        "60Hz"
       ],
       "featurelist": [
         "Resolution: QLED",
         "Refresh Rate: 60 Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -206,38 +298,68 @@
         "Screen Mirroring/chromecast",
         "Dolby Vision & Atmos"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "300 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2x10W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1110.3*705.4*265.9, Without stand (WxHxD) 1110.3*650.6*90.5" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "300 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1110.3*705.4*265.9, Without stand (WxHxD) 1110.3*650.6*90.5"
+        }
+      ],
       "image": [
         "./../../assets/LedInterface/QLED_Q6600G/Front.jpg",
         "./../../assets/LedInterface/QLED_Q6600G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
+        "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
       ],
       "resolution": "QLED",
       "productSize": "50 inches",
       "detailImages": [
         "./../../assets/Banner/QLED6050Q6600G/Image1.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image2.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image3.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image4.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image5.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image6.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image7.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image8.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image9.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image10.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image11.png",
-       "./../../assets/Banner/QLED6050Q6600G/Image12.png"
+        "./../../assets/Banner/QLED6050Q6600G/Image2.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image3.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image4.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image5.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image6.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image7.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image8.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image9.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image10.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image11.png",
+        "./../../assets/Banner/QLED6050Q6600G/Image12.png"
       ]
     },
     {
@@ -248,21 +370,22 @@
       "image": [
         "./../../assets/LedInterface/QLED_Q6600G/Front.jpg",
         "./../../assets/LedInterface/QLED_Q6600G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
+        "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
       ],
       "resolution": "QLED",
       "productSize": "55 inches",
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Google TV",
         "Dolby Audio",
         "HDR10+",
-        "60Hzs"
+        "60Hz"
       ],
       "featurelist": [
         "Resolution: QLED",
         "Refresh Rate: 60 Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -270,31 +393,61 @@
         "Screen Mirroring/chromecast",
         "Dolby Vision & Atmos"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "300 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2x10W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1225.2*774*265.8, Without stand (WxHxD) 1225.2*721.9*93.1" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "300 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1225.2*774*265.8, Without stand (WxHxD) 1225.2*721.9*93.1"
+        }
+      ],
       "detailImages": [
         "./../../assets/Banner/QLED6055Q6600G/Image1.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image2.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image3.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image4.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image5.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image6.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image7.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image8.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image9.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image10.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image11.png",
-       "./../../assets/Banner/QLED6055Q6600G/Image12.png"
+        "./../../assets/Banner/QLED6055Q6600G/Image2.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image3.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image4.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image5.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image6.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image7.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image8.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image9.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image10.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image11.png",
+        "./../../assets/Banner/QLED6055Q6600G/Image12.png"
       ]
     },
     {
@@ -305,14 +458,14 @@
       "image": [
         "./../../assets/LedInterface/QLED_Q7700G/Front.jpg",
         "./../../assets/LedInterface/QLED_Q7700G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q7700G/Right.jpg"
+        "./../../assets/LedInterface/QLED_Q7700G/Right.jpg"
       ],
       "resolution": "QLED",
       "productSize": "55 inches",
       "featurelist": [
         "Resolution: QLED",
         "Refresh Rate: 144Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -321,41 +474,72 @@
         "Dolby Vision & Atmos",
         "Subwoofer"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "144Hz" },
-        { "title": "Peak Brightness", "detail": "300 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 3GB, ROM: 32GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A73*4 processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1233*757*214, Without stand (WxHxD) 1233*722*87" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "144Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "300 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 3GB, ROM: 32GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A73*4 processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1233*757*214, Without stand (WxHxD) 1233*722*87"
+        }
+      ],
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Google TV",
         "Dolby Audio",
         "HDR10+",
-        "144Hzs"
+        "144Hz"
       ],
       "detailImages": [
         "./../../assets/Banner/QLED14455Q7700G/Image1.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image2.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image3.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image4.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image5.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image6.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image7.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image8.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image9.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image10.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image11.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image12.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image13.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image14.png",
-       "./../../assets/Banner/QLED14455Q7700G/Image15.png"
+        "./../../assets/Banner/QLED14455Q7700G/Image2.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image3.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image4.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image5.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image6.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image7.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image8.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image9.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image10.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image11.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image12.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image13.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image14.png",
+        "./../../assets/Banner/QLED14455Q7700G/Image15.png"
       ]
     },
     {
@@ -366,13 +550,13 @@
       "image": [
         "./../../assets/LedInterface/QLED_Q6600G/Front.jpg",
         "./../../assets/LedInterface/QLED_Q6600G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
+        "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
       ],
       "resolution": "QLED",
       "featurelist": [
         "Resolution: QLED",
         "Refresh Rate: 60 Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -380,39 +564,70 @@
         "Screen Mirroring/chromecast",
         "Dolby Vision & Atmos"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "350 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2x10W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1445*283*907, Without stand (WxHxD) 1445*97*838" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "350 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1445*283*907, Without stand (WxHxD) 1445*97*838"
+        }
+      ],
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Google TV",
         "Dolby Audio",
         "HDR10+",
-        "60Hzs"
+        "60Hz"
       ],
       "productSize": "65 inches",
       "detailImages": [
         "./../../assets/Banner/QLED6065Q6600G/Image1.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image2.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image3.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image4.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image5.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image6.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image7.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image8.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image9.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image10.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image11.png",
-       "./../../assets/Banner/QLED6065Q6600G/Image12.png"
+        "./../../assets/Banner/QLED6065Q6600G/Image2.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image3.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image4.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image5.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image6.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image7.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image8.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image9.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image10.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image11.png",
+        "./../../assets/Banner/QLED6065Q6600G/Image12.png"
       ]
     },
     {
@@ -423,14 +638,14 @@
       "image": [
         "./../../assets/LedInterface/QLED_Q7700G/Front.jpg",
         "./../../assets/LedInterface/QLED_Q7700G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q7700G/Right.jpg"
+        "./../../assets/LedInterface/QLED_Q7700G/Right.jpg"
       ],
       "resolution": "QLED",
       "productSize": "65 inches",
       "featurelist": [
         "Resolution: QLED",
         "Refresh Rate: 144Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -439,41 +654,72 @@
         "Dolby Vision & Atmos",
         "Subwoofer"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "144Hz" },
-        { "title": "Peak Brightness", "detail": "330 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 3GB, ROM: 32GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A73*4 processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1453*290*881, Without stand (WxHxD) 1453*88*845" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "144Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "330 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 3GB, ROM: 32GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A73*4 processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1453*290*881, Without stand (WxHxD) 1453*88*845"
+        }
+      ],
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Google TV",
         "Dolby Audio",
         "HDR10+",
-        "144Hzs"
+        "144Hz"
       ],
       "detailImages": [
         "./../../assets/Banner/QLED14465Q7700G/Image1.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image2.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image3.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image4.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image5.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image6.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image7.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image8.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image9.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image10.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image11.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image12.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image13.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image14.png",
-       "./../../assets/Banner/QLED14465Q7700G/Image15.png"
+        "./../../assets/Banner/QLED14465Q7700G/Image2.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image3.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image4.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image5.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image6.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image7.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image8.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image9.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image10.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image11.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image12.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image13.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image14.png",
+        "./../../assets/Banner/QLED14465Q7700G/Image15.png"
       ]
     },
     {
@@ -482,14 +728,14 @@
       "overview": "The Skyworth QLED series offers an unparalleled visual experience with brilliant colors and exceptional brightness, all housed in a sleek, slim-bezel design. Powered by Google TV, it provides seamless access to your favorite apps, shows, and movies. With built-in Google Assistant and a Bluetooth voice remote, you can effortlessly control your entertainment and manage tasks hands-free, delivering a smarter, more intuitive viewing experience.",
       "price": "$259.99 - $379.99",
       "image": [
-         "./../../assets/LedInterface/QLED_Q6600G/Front.jpg",
+        "./../../assets/LedInterface/QLED_Q6600G/Front.jpg",
         "./../../assets/LedInterface/QLED_Q6600G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
+        "./../../assets/LedInterface/QLED_Q6600G/Right.jpg"
       ],
       "featurelist": [
-       "Resolution: QLED",
+        "Resolution: QLED",
         "Refresh Rate: 60 Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -497,101 +743,71 @@
         "Screen Mirroring/chromecast",
         "Dolby Vision & Atmos"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "350 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2x12W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1667.8*1034.2*335.2, Without stand (WxHxD) 1667.8*964.8*84.9" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "350 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2x12W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1667.8*1034.2*335.2, Without stand (WxHxD) 1667.8*964.8*84.9"
+        }
+      ],
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Google TV",
         "Quantum Dot",
         "HDR10+",
-        "60Hzs"
+        "60Hz"
       ],
       "resolution": "QLED",
       "productSize": "75 inches",
       "detailImages": [
         "./../../assets/Banner/QLED6075Q6600G/Image1.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image2.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image3.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image4.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image5.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image6.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image7.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image8.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image9.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image10.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image11.png",
-       "./../../assets/Banner/QLED6075Q6600G/Image12.png"
-      ]
-    },
-    {
-      "id": 10,
-      "name": "QLED 75Q7700G Google TV",
-      "overview": "The Skyworth QLED series offers an unparalleled visual experience with brilliant colors and exceptional brightness, all housed in a sleek, slim-bezel design. Powered by Google TV, it provides seamless access to your favorite apps, shows, and movies. With built-in Google Assistant and a Bluetooth voice remote, you can effortlessly control your entertainment and manage tasks hands-free, delivering a smarter, more intuitive viewing experience.",
-      "price": "$4,999.00 - $6,999.00",
-      "image": [
-        "./../../assets/LedInterface/QLED_Q7700G/Front.jpg",
-        "./../../assets/LedInterface/QLED_Q7700G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q7700G/Right.jpg"
-      ],
-      "detailImages": [
-        "./../../assets/Banner/QLED14475Q7700G/Image1.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image2.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image3.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image4.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image5.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image6.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image7.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image8.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image9.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image10.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image11.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image12.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image13.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image14.png",
-       "./../../assets/Banner/QLED14475Q7700G/Image15.png"
-      ],
-      "resolution": "QLED",
-      "productSize": "75 inches",
-      "featurelist": [
-        "Resolution: QLED",
-        "Refresh Rate: 144Hz",
-        "HDR: HDR10+ ",
-        "Game Mode",
-        "Google Assistant",
-        "Film Maker Mode",
-        "Far Field Voice Control",
-        "Screen Mirroring/chromecast",
-        "Dolby Vision & Atmos",
-        "Subwoofer"
-      ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "144Hz" },
-        { "title": "Peak Brightness", "detail": "330 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 3GB, ROM: 32GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A73*4 processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1675*330*1008, Without stand (WxHxD) 1675*88*973" }
-      ],      
-      "features": [
-        "Dolby Vision & Atmos",
-        "Dolby Audio",
-        "Google TV",
-        "HDR10+",
-        "144Hzs"
+        "./../../assets/Banner/QLED6075Q6600G/Image2.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image3.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image4.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image5.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image6.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image7.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image8.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image9.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image10.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image11.png",
+        "./../../assets/Banner/QLED6075Q6600G/Image12.png"
       ]
     },
     {
@@ -600,27 +816,57 @@
       "price": "$1,199.00 - $1,599.00",
       "overview": "The Skyworth QLED series offers an unparalleled visual experience with brilliant colors and exceptional brightness, all housed in a sleek, slim-bezel design. Powered by Google TV, it provides seamless access to your favorite apps, shows, and movies. With built-in Google Assistant and a Bluetooth voice remote, you can effortlessly control your entertainment and manage tasks hands-free, delivering a smarter, more intuitive viewing experience.",
       "specifications": [
-        { "title": "Screen Resolution", "detail": "QLED 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "144Hz" },
-        { "title": "Peak Brightness", "detail": "330 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 3GB, ROM: 32GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A73*4 processor" },
-        { "title": "Audio", "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1925*380*1144, Without stand (WxHxD) 1925*97*1109" }
+        {
+          "title": "Screen Resolution",
+          "detail": "QLED 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "144Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "330 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 3GB, ROM: 32GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A73*4 processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Atmos, 2 x 15W + 20W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1925*380*1144, Without stand (WxHxD) 1925*97*1109"
+        }
       ],
       "downloads": "Downloads content goes here. Provide users with downloadable resources like manuals or software.",
       "image": [
         "./../../assets/LedInterface/QLED_Q7700G/Front.jpg",
         "./../../assets/LedInterface/QLED_Q7700G/Left.jpg",
-         "./../../assets/LedInterface/QLED_Q7700G/Right.jpg"
+        "./../../assets/LedInterface/QLED_Q7700G/Right.jpg"
       ],
       "featurelist": [
         "Resolution: QLED",
         "Refresh Rate: 144Hz",
-        "HDR: HDR10+ ",
+        "HDR10+ ",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -630,31 +876,32 @@
         "Subwoofer"
       ],
       "features": [
+        "Quantum Dot",
         "Dolby Vision & Atmos",
         "Dolby Audio",
         "Google TV",
         "HDR10+",
-        "144Hzs"
+        "144Hz"
       ],
       "resolution": "QLED",
       "productSize": "86 inches",
       "description": "",
       "detailImages": [
         "./../../assets/Banner/QLED14486Q7700G/Image1.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image2.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image3.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image4.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image5.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image6.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image7.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image8.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image9.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image10.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image11.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image12.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image13.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image14.png",
-       "./../../assets/Banner/QLED14486Q7700G/Image15.png"
+        "./../../assets/Banner/QLED14486Q7700G/Image2.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image3.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image4.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image5.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image6.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image7.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image8.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image9.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image10.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image11.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image12.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image13.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image14.png",
+        "./../../assets/Banner/QLED14486Q7700G/Image15.png"
       ]
     },
     {
@@ -665,7 +912,7 @@
       "featurelist": [
         "Resolution: UHD",
         "Refresh Rate: 60 Hz",
-        "HDR: HDR10",
+        "HDR10",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -674,65 +921,124 @@
       ],
       "features": [
         "Google TV",
-        "Quantum Dot",
         "HDR10",
-        "60Hzs"
+        "60Hz"
       ],
       "image": [
         "./../../assets/LedInterface/UHD/50_55G6600G/Front.jpg",
-       "./../../assets/LedInterface/UHD/50_55G6600G/left.jpg",
+        "./../../assets/LedInterface/UHD/50_55G6600G/left.jpg",
         "./../../assets/LedInterface/UHD/50_55G6600G/Right.jpg"
       ],
       "detailImages": [
         "./../../assets/Banner/UHD50G6600G/Image1.png",
-       "./../../assets/Banner/UHD50G6600G/Image2.png",
-       "./../../assets/Banner/UHD50G6600G/Image3.png",
-       "./../../assets/Banner/UHD50G6600G/Image4.png",
-       "./../../assets/Banner/UHD50G6600G/Image5.png",
-       "./../../assets/Banner/UHD50G6600G/Image6.png",
-       "./../../assets/Banner/UHD50G6600G/Image7.png",
-       "./../../assets/Banner/UHD50G6600G/Image8.png",
-       "./../../assets/Banner/UHD50G6600G/Image9.png",
-       "./../../assets/Banner/UHD50G6600G/Image10.png",
-       "./../../assets/Banner/UHD50G6600G/Image11.png",
-       "./../../assets/Banner/UHD50G6600G/Image12.png"
+        "./../../assets/Banner/UHD50G6600G/Image2.png",
+        "./../../assets/Banner/UHD50G6600G/Image3.png",
+        "./../../assets/Banner/UHD50G6600G/Image4.png",
+        "./../../assets/Banner/UHD50G6600G/Image5.png",
+        "./../../assets/Banner/UHD50G6600G/Image6.png",
+        "./../../assets/Banner/UHD50G6600G/Image7.png",
+        "./../../assets/Banner/UHD50G6600G/Image8.png",
+        "./../../assets/Banner/UHD50G6600G/Image9.png",
+        "./../../assets/Banner/UHD50G6600G/Image10.png",
+        "./../../assets/Banner/UHD50G6600G/Image11.png",
+        "./../../assets/Banner/UHD50G6600G/Image12.png"
       ],
       "resolution": "UHD",
       "productSize": "50 inches",
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "Ultra High Definition 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "250 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Audio, 2x10W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1110*723.6*274, Without stand (WxHxD) 1110*647*80.4" }
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "Ultra High Definition 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "250 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Audio, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1110*723.6*274, Without stand (WxHxD) 1110*647*80.4"
+        }
       ]
     },
     {
       "id": 13,
       "name": "UHD 55G6600G Google TV",
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "Ultra High Definition 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "250 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Audio, 2x10W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1226.1*787.3*273.9, Without stand (WxHxD) 1226.1*720.7*81.2" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "Ultra High Definition 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "250 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Audio, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1226.1*787.3*273.9, Without stand (WxHxD) 1226.1*720.7*81.2"
+        }
+      ],
       "overview": "The Skyworth UHD series elevates your entertainment with a stunning 50' 4K display and a sleek, bezel-less design that maximizes screen space for a truly immersive viewing experience. Its HDR10 technology enhances brightness and deepens dark tones, delivering vibrant colors and exceptional clarity for lifelike visuals. Powered by Google TV, you get seamless access to all your favorite apps, movies, and shows. Plus, with the built-in Google Assistant and a mic-enabled Bluetooth remote, you can control your entertainment hands-free, making your viewing experience smarter and better than ever.",
       "price": "$299.00 - $699.99",
       "featurelist": [
-       "Resolution: UHD",
+        "Resolution: UHD",
         "Refresh Rate: 60 Hz",
-        "HDR: HDR10",
+        "HDR10",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
@@ -742,26 +1048,26 @@
       "features": [
         "Google TV",
         "HDR10",
-        "60Hzs"
+        "60Hz"
       ],
       "image": [
         "./../../assets/LedInterface/UHD/50_55G6600G/Front.jpg",
         "./../../assets/LedInterface/UHD/50_55G6600G/left.jpg",
-         "./../../assets/LedInterface/UHD/50_55G6600G/Right.jpg"
+        "./../../assets/LedInterface/UHD/50_55G6600G/Right.jpg"
       ],
       "detailImages": [
         "./../../assets/Banner/UHD55G6600G/Image1.png",
-       "./../../assets/Banner/UHD55G6600G/Image2.png",
-       "./../../assets/Banner/UHD55G6600G/Image3.png",
-       "./../../assets/Banner/UHD55G6600G/Image4.png",
-       "./../../assets/Banner/UHD55G6600G/Image5.png",
-       "./../../assets/Banner/UHD55G6600G/Image6.png",
-       "./../../assets/Banner/UHD55G6600G/Image7.png",
-       "./../../assets/Banner/UHD55G6600G/Image8.png",
-       "./../../assets/Banner/UHD55G6600G/Image9.png",
-       "./../../assets/Banner/UHD55G6600G/Image10.png",
-       "./../../assets/Banner/UHD55G6600G/Image11.png",
-       "./../../assets/Banner/UHD55G6600G/Image12.png"
+        "./../../assets/Banner/UHD55G6600G/Image2.png",
+        "./../../assets/Banner/UHD55G6600G/Image3.png",
+        "./../../assets/Banner/UHD55G6600G/Image4.png",
+        "./../../assets/Banner/UHD55G6600G/Image5.png",
+        "./../../assets/Banner/UHD55G6600G/Image6.png",
+        "./../../assets/Banner/UHD55G6600G/Image7.png",
+        "./../../assets/Banner/UHD55G6600G/Image8.png",
+        "./../../assets/Banner/UHD55G6600G/Image9.png",
+        "./../../assets/Banner/UHD55G6600G/Image10.png",
+        "./../../assets/Banner/UHD55G6600G/Image11.png",
+        "./../../assets/Banner/UHD55G6600G/Image12.png"
       ],
       "resolution": "UHD",
       "productSize": "55 inches"
@@ -774,50 +1080,80 @@
       "image": [
         "./../../assets/LedInterface/UHD/65_85G6600G/Front.jpg",
         "./../../assets/LedInterface/UHD/65_85G6600G/left.jpg",
-         "./../../assets/LedInterface/UHD/65_85G6600G/Right.jpg"
+        "./../../assets/LedInterface/UHD/65_85G6600G/Right.jpg"
       ],
       "resolution": "UHD",
       "productSize": "65 inches",
       "featurelist": [
         "Resolution: UHD",
-         "Refresh Rate: 60 Hz",
-         "HDR: HDR10",
-         "Game Mode",
-         "Google Assistant",
-         "Film Maker Mode",
-         "Far Field Voice Control",
-         "Screen Mirroring/chromecast"
-       ],
+        "Refresh Rate: 60 Hz",
+        "HDR10",
+        "Game Mode",
+        "Google Assistant",
+        "Film Maker Mode",
+        "Far Field Voice Control",
+        "Screen Mirroring/chromecast"
+      ],
       "features": [
         "Google TV",
         "HDR10",
-        "60Hzs"
+        "60Hz"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "Ultra High Definition 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "250 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Audio, 2x10W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1445*272*907, Without stand (WxHxD) 1445*98*838" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "Ultra High Definition 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "250 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Audio, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1445*272*907, Without stand (WxHxD) 1445*98*838"
+        }
+      ],
       "detailImages": [
         "./../../assets/Banner/UHD65G6600G/Image1.png",
-       "./../../assets/Banner/UHD65G6600G/Image2.png",
-       "./../../assets/Banner/UHD65G6600G/Image3.png",
-       "./../../assets/Banner/UHD65G6600G/Image4.png",
-       "./../../assets/Banner/UHD65G6600G/Image5.png",
-       "./../../assets/Banner/UHD65G6600G/Image6.png",
-       "./../../assets/Banner/UHD65G6600G/Image7.png",
-       "./../../assets/Banner/UHD65G6600G/Image8.png",
-       "./../../assets/Banner/UHD65G6600G/Image9.png",
-       "./../../assets/Banner/UHD65G6600G/Image10.png",
-       "./../../assets/Banner/UHD65G6600G/Image11.png",
-       "./../../assets/Banner/UHD65G6600G/Image12.png"
+        "./../../assets/Banner/UHD65G6600G/Image2.png",
+        "./../../assets/Banner/UHD65G6600G/Image3.png",
+        "./../../assets/Banner/UHD65G6600G/Image4.png",
+        "./../../assets/Banner/UHD65G6600G/Image5.png",
+        "./../../assets/Banner/UHD65G6600G/Image6.png",
+        "./../../assets/Banner/UHD65G6600G/Image7.png",
+        "./../../assets/Banner/UHD65G6600G/Image8.png",
+        "./../../assets/Banner/UHD65G6600G/Image9.png",
+        "./../../assets/Banner/UHD65G6600G/Image10.png",
+        "./../../assets/Banner/UHD65G6600G/Image11.png",
+        "./../../assets/Banner/UHD65G6600G/Image12.png"
       ]
     },
     {
@@ -828,50 +1164,80 @@
       "image": [
         "./../../assets/LedInterface/UHD/65_85G6600G/Front.jpg",
         "./../../assets/LedInterface/UHD/65_85G6600G/left.jpg",
-         "./../../assets/LedInterface/UHD/65_85G6600G/Right.jpg"
+        "./../../assets/LedInterface/UHD/65_85G6600G/Right.jpg"
       ],
       "resolution": "UHD",
       "productSize": "85 inches",
       "featurelist": [
         "Resolution: UHD",
         "Refresh Rate: 60 Hz",
-        "HDR: HDR10",
+        "HDR10",
         "Game Mode",
         "Google Assistant",
         "Film Maker Mode",
         "Far Field Voice Control",
         "Screen Mirroring/chromecast"
       ],
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "Ultra High Definition 3840 x 2160" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "350 Nits" },
-        { "title": "Connections", "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 2GB, ROM: 16GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A53*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Audio, 2x15W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 1889.6*1162.4*386, Without stand (WxHxD) 1889.6*1079.5*91.1" }
-      ],      
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "Ultra High Definition 3840 x 2160"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "350 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 3, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 2GB, ROM: 16GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A53*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Audio, 2x15W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 1889.6*1162.4*386, Without stand (WxHxD) 1889.6*1079.5*91.1"
+        }
+      ],
       "features": [
         "Google TV",
         "HDR10",
-        "60Hzs"
+        "60Hz"
       ],
       "detailImages": [
         "./../../assets/Banner/UHD85G6600G/Image1.png",
-       "./../../assets/Banner/UHD85G6600G/Image2.png",
-       "./../../assets/Banner/UHD85G6600G/Image3.png",
-       "./../../assets/Banner/UHD85G6600G/Image4.png",
-       "./../../assets/Banner/UHD85G6600G/Image5.png",
-       "./../../assets/Banner/UHD85G6600G/Image6.png",
-       "./../../assets/Banner/UHD85G6600G/Image7.png",
-       "./../../assets/Banner/UHD85G6600G/Image8.png",
-       "./../../assets/Banner/UHD85G6600G/Image9.png",
-       "./../../assets/Banner/UHD85G6600G/Image10.png",
-       "./../../assets/Banner/UHD85G6600G/Image11.png",
-       "./../../assets/Banner/UHD85G6600G/Image12.png"
+        "./../../assets/Banner/UHD85G6600G/Image2.png",
+        "./../../assets/Banner/UHD85G6600G/Image3.png",
+        "./../../assets/Banner/UHD85G6600G/Image4.png",
+        "./../../assets/Banner/UHD85G6600G/Image5.png",
+        "./../../assets/Banner/UHD85G6600G/Image6.png",
+        "./../../assets/Banner/UHD85G6600G/Image7.png",
+        "./../../assets/Banner/UHD85G6600G/Image8.png",
+        "./../../assets/Banner/UHD85G6600G/Image9.png",
+        "./../../assets/Banner/UHD85G6600G/Image10.png",
+        "./../../assets/Banner/UHD85G6600G/Image11.png",
+        "./../../assets/Banner/UHD85G6600G/Image12.png"
       ]
     },
     {
@@ -882,27 +1248,57 @@
         "Resolution: HD",
         "Refresh Rate: 60 Hz",
         "Sound Technology: Dolby Audio",
-        "HDR: HDR10",
+        "HDR10",
         "Google Assistant",
         "Screen Mirroring/chromecast"
       ],
       "features": [
         "Google TV",
         "HDR10",
-        "60Hzs"
+        "60Hz"
       ],
       "overview": "This Skyworth series redefines your viewing experience with its stunning colors and crystal-clear clarity, all wrapped in a sleek, slim design. Powered by Google, this TV provides effortless access to your favorite apps and streaming services. With the built-in Google Assistant, you can easily control your TV, search for content, and manage tasks—all with just your voice. Whether you're enjoying movies, diving into gaming, or catching up on the latest shows, the Skyworth delivers smart entertainment at your fingertips.",
       "specifications": [
-        {"title": "Screen Resolution","detail": "High Definition 1366 x 768"},
-        {"title": "Screen Technology","detail": "Direct LED Backlight (DLED)"},
-        {"title": "Refresh Rate","detail": "60Hz"},
-        {"title": "Peak Brightness","detail": "200 Nits"},
-        {"title": "Connections","detail": "HDMI: 2, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"},
-        {"title": "Memory","detail": "RAM: 1.5 GB, ROM: 8GB"},
-        {"title": "Color Technology","detail": "RGB"},
-        {"title": "Processor","detail": "A55*4-1.5GHz processor"},
-        {"title": "Audio","detail": "Dolby Audio, 2x10W Speaker Output RMS"},
-        {"title": "Dimensions","detail": "With stand (WxHxD) 718.0*456.6*165.5, Without stand (WxHxD) 718.0*426.8*70.2"}
+        {
+          "title": "Screen Resolution",
+          "detail": "High Definition 1366 x 768"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "200 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 2, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 1.5 GB, ROM: 8GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A55*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Audio, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 718.0*456.6*165.5, Without stand (WxHxD) 718.0*426.8*70.2"
+        }
       ],
       "image": [
         "./../../assets/LedInterface/HD-FHD/FHD.jpg",
@@ -912,15 +1308,15 @@
       "resolution": "FHD/HD",
       "productSize": "32 inches",
       "detailImages": [
-       "./../../assets/Banner/HD32E5500G/Image1.png",
-       "./../../assets/Banner/HD32E5500G/Image2.png",
-       "./../../assets/Banner/HD32E5500G/Image3.png",
-       "./../../assets/Banner/HD32E5500G/Image4.png",
-       "./../../assets/Banner/HD32E5500G/Image5.png",
-       "./../../assets/Banner/HD32E5500G/Image6.png",
-       "./../../assets/Banner/HD32E5500G/Image7.png",
-       "./../../assets/Banner/HD32E5500G/Image8.png",
-       "./../../assets/Banner/HD32E5500G/Image9.png"
+        "./../../assets/Banner/HD32E5500G/Image1.png",
+        "./../../assets/Banner/HD32E5500G/Image2.png",
+        "./../../assets/Banner/HD32E5500G/Image3.png",
+        "./../../assets/Banner/HD32E5500G/Image4.png",
+        "./../../assets/Banner/HD32E5500G/Image5.png",
+        "./../../assets/Banner/HD32E5500G/Image6.png",
+        "./../../assets/Banner/HD32E5500G/Image7.png",
+        "./../../assets/Banner/HD32E5500G/Image8.png",
+        "./../../assets/Banner/HD32E5500G/Image9.png"
       ]
     },
     {
@@ -939,37 +1335,67 @@
         "Resolution: FHD",
         "Refresh Rate: 60 Hz",
         "Sound Technology: Dolby Audio",
-        "HDR: HDR10",
+        "HDR10",
         "Google Assistant",
         "Screen Mirroring/chromecast"
       ],
       "features": [
         "Google TV",
         "HDR10",
-        "60Hzs"
+        "60Hz"
       ],
       "specifications": [
-        {"title": "Screen Resolution","detail": "Full High Definition 1920 x 1080"},
-        {"title": "Screen Technology","detail": "Direct LED Backlight (DLED)"},
-        {"title": "Refresh Rate","detail": "60Hz"},
-        {"title": "Peak Brightness","detail": "200 Nits"},
-        {"title": "Connections","detail": "HDMI: 2, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"},
-        {"title": "Memory","detail": "RAM: 1.5 GB, ROM: 8GB"},
-        {"title": "Color Technology","detail": "RGB"},
-        {"title": "Processor","detail": "A55*4-1.5GHz processor"},
-        {"title": "Audio","detail": "Dolby Audio, 2x10W Speaker Output RMS"},
-        {"title": "Dimensions","detail": "With stand (WxHxD) 892.0*564.6*214.4, Without stand (WxHxD) 892.0*510.6*74.8"}
+        {
+          "title": "Screen Resolution",
+          "detail": "Full High Definition 1920 x 1080"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "200 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 2, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 1.5 GB, ROM: 8GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A55*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Audio, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 892.0*564.6*214.4, Without stand (WxHxD) 892.0*510.6*74.8"
+        }
       ],
       "detailImages": [
-       "./../../assets/Banner/FHD40E5500G/Image1.png",
-       "./../../assets/Banner/FHD40E5500G/Image2.png",
-       "./../../assets/Banner/FHD40E5500G/Image3.png",
-       "./../../assets/Banner/FHD40E5500G/Image4.png",
-       "./../../assets/Banner/FHD40E5500G/Image5.png",
-       "./../../assets/Banner/FHD40E5500G/Image6.png",
-       "./../../assets/Banner/FHD40E5500G/Image7.png",
-       "./../../assets/Banner/FHD40E5500G/Image8.png",
-       "./../../assets/Banner/FHD40E5500G/Image9.png"
+        "./../../assets/Banner/FHD40E5500G/Image1.png",
+        "./../../assets/Banner/FHD40E5500G/Image2.png",
+        "./../../assets/Banner/FHD40E5500G/Image3.png",
+        "./../../assets/Banner/FHD40E5500G/Image4.png",
+        "./../../assets/Banner/FHD40E5500G/Image5.png",
+        "./../../assets/Banner/FHD40E5500G/Image6.png",
+        "./../../assets/Banner/FHD40E5500G/Image7.png",
+        "./../../assets/Banner/FHD40E5500G/Image8.png",
+        "./../../assets/Banner/FHD40E5500G/Image9.png"
       ]
     },
     {
@@ -977,18 +1403,48 @@
       "name": "FHD 43E5500G Google TV",
       "price": "$1,199.00 - $1,599.00",
       "overview": "This Skyworth series redefines your viewing experience with its stunning colors and crystal-clear clarity, all wrapped in a sleek, slim design. Powered by Google, this TV provides effortless access to your favorite apps and streaming services. With the built-in Google Assistant, you can easily control your TV, search for content, and manage tasks—all with just your voice. Whether you're enjoying movies, diving into gaming, or catching up on the latest shows, the Skyworth delivers smart entertainment at your fingertips.",
-      "specifications":[
-        { "title": "Screen Resolution", "detail": "Full High Definition 1920 x 1080" },
-        { "title": "Screen Technology", "detail": "Direct LED Backlight (DLED)" },
-        { "title": "Refresh Rate", "detail": "60Hz" },
-        { "title": "Peak Brightness", "detail": "200 Nits" },
-        { "title": "Connections", "detail": "HDMI: 2, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes" },
-        { "title": "Memory", "detail": "RAM: 1.5 GB, ROM: 8GB" },
-        { "title": "Color Technology", "detail": "RGB" },
-        { "title": "Processor", "detail": "A55*4-1.5GHz processor" },
-        { "title": "Audio", "detail": "Dolby Audio, 2x10W Speaker Output RMS" },
-        { "title": "Dimensions", "detail": "With stand (WxHxD) 954.5*611.3*214.4, Without stand (WxHxD) 954.5*558.6*75.4" }
-      ] ,
+      "specifications": [
+        {
+          "title": "Screen Resolution",
+          "detail": "Full High Definition 1920 x 1080"
+        },
+        {
+          "title": "Screen Technology",
+          "detail": "Direct LED Backlight (DLED)"
+        },
+        {
+          "title": "Refresh Rate",
+          "detail": "60Hz"
+        },
+        {
+          "title": "Peak Brightness",
+          "detail": "200 Nits"
+        },
+        {
+          "title": "Connections",
+          "detail": "HDMI: 2, Composite: 1 (3.5mm dongle), Optical Audio Out: 1, USB: 2(v2.0), Network: 1 LAN, WIFI 802.11 (AC), Tuner: DTV (ATSC & Digital Cable), Bluetooth Support: Yes"
+        },
+        {
+          "title": "Memory",
+          "detail": "RAM: 1.5 GB, ROM: 8GB"
+        },
+        {
+          "title": "Color Technology",
+          "detail": "RGB"
+        },
+        {
+          "title": "Processor",
+          "detail": "A55*4-1.5GHz processor"
+        },
+        {
+          "title": "Audio",
+          "detail": "Dolby Audio, 2x10W Speaker Output RMS"
+        },
+        {
+          "title": "Dimensions",
+          "detail": "With stand (WxHxD) 954.5*611.3*214.4, Without stand (WxHxD) 954.5*558.6*75.4"
+        }
+      ],
       "downloads": "Downloads content goes here. Provide users with downloadable resources like manuals or software.",
       "image": [
         "./../../assets/LedInterface/HD-FHD/FHD.jpg",
@@ -998,13 +1454,13 @@
       "features": [
         "Google TV",
         "HDR10",
-        "60Hzs"
+        "60Hz"
       ],
       "featurelist": [
         "Resolution: FHD",
         "Refresh Rate: 60 Hz",
         "Sound Technology: Dolby Audio",
-        "HDR: HDR10",
+        "HDR10",
         "Google Assistant",
         "Screen Mirroring/chromecast"
       ],
@@ -1012,15 +1468,15 @@
       "productSize": "43 inches",
       "description": "",
       "detailImages": [
-       "./../../assets/Banner/FHD43E5500G/Image1.png",
-       "./../../assets/Banner/FHD43E5500G/Image2.png",
-       "./../../assets/Banner/FHD43E5500G/Image3.png",
-       "./../../assets/Banner/FHD43E5500G/Image4.png",
-       "./../../assets/Banner/FHD43E5500G/Image5.png",
-       "./../../assets/Banner/FHD43E5500G/Image6.png",
-       "./../../assets/Banner/FHD43E5500G/Image7.png",
-       "./../../assets/Banner/FHD43E5500G/Image8.png",
-       "./../../assets/Banner/FHD43E5500G/Image9.png"
+        "./../../assets/Banner/FHD43E5500G/Image1.png",
+        "./../../assets/Banner/FHD43E5500G/Image2.png",
+        "./../../assets/Banner/FHD43E5500G/Image3.png",
+        "./../../assets/Banner/FHD43E5500G/Image4.png",
+        "./../../assets/Banner/FHD43E5500G/Image5.png",
+        "./../../assets/Banner/FHD43E5500G/Image6.png",
+        "./../../assets/Banner/FHD43E5500G/Image7.png",
+        "./../../assets/Banner/FHD43E5500G/Image8.png",
+        "./../../assets/Banner/FHD43E5500G/Image9.png"
       ]
     }
   ]

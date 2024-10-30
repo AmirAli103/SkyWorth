@@ -1,5 +1,31 @@
- {
-    "resolution": ["QLED MINI", "QLED", "UHD", "FHD/HD"],
-    "productSize": ["100 inches", "86 inches","85 inches","75 inches", "65 inches", "55 inches", "50 inches", "43 inches","40 inches", "32 inches"],
-    "feature": ["Dolby Vision & Atmos", "Dolby Audio", "Google TV", "HDR10", "HDR10+", "144Hzs", "120Hzs", "60Hzs"]
+{
+    "resolution": [
+        "QLED MINI",
+        "QLED",
+        "UHD",
+        "FHD/HD"
+    ],
+    "productSize": [
+        "100 inches",
+        "86 inches",
+        "85 inches",
+        "75 inches",
+        "65 inches",
+        "55 inches",
+        "50 inches",
+        "43 inches",
+        "40 inches",
+        "32 inches"
+    ],
+    "feature": [
+        "Quantum Dot",
+        "Dolby Vision & Atmos",
+        "Dolby Audio",
+        "Google TV",
+        "HDR10",
+        "HDR10+",
+        "144Hz",
+        "120Hz",
+        "60Hz"
+    ]
 }
