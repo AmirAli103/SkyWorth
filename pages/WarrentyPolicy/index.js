@@ -54,6 +54,26 @@ const Index = () => {
   const [countryid, setCountryid] = useState(167);
   const [stateid, setstateid] = useState(0);
   const router = useRouter();
+  useEffect(() => {
+    const handleRouteChangeComplete = (url) => {
+      if (url.includes('#form')) {
+        const warrantyForm = document.getElementById('form');
+        if (warrantyForm) {
+          warrantyForm.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+    router.events.on('routeChangeComplete', handleRouteChangeComplete);
+    if (router.asPath.includes('#form')) {
+      const warrantyForm = document.getElementById('form');
+      if (warrantyForm) {
+        warrantyForm.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChangeComplete);
+    };
+  }, [router]);
   const handleLearnMore = () => {
     router.push("/product");
   };
@@ -156,6 +176,7 @@ const Index = () => {
       />
       <Box
         sx={{ padding: { xs: "10px 20px", md: "20px" }, maxWidth: "1000px", margin: "0 auto", borderRadius: "8px" }}
+        id={"form"}
       >
         <form onSubmit={handleSubmit(onSubmit)}>
           <Grid container spacing={2}>
@@ -238,13 +259,15 @@ const Index = () => {
             <Grid item xs={12} sm={4} component={motion.div} initial="hidden" animate="visible" transition={{ delay: 0.3 }} variants={animationVariants}>
               <Typography sx={{ fontSize: 16, fontFamily: 'kanit' }}>Country</Typography>
               <CountrySelect
-                defaultValue={country?false:countryDetails} 
+                defaultValue={country ? false : countryDetails}
                 onChange={(e) => { setValue("country", e?.name); setCountryid(e.id) }}
-                style={{ height: "34px", border: "0px solid #ccc", fontFamily: 'kanit',outline: 'none',boxShadow: 'none',
+                style={{
+                  height: "34px", border: "0px solid #ccc", fontFamily: 'kanit', outline: 'none', boxShadow: 'none',
                   '&:focus': {
                     border: 'none',
                     outline: 'none',
-                  } }}
+                  }
+                }}
                 placeHolder="Select Country"
               />
               {errors.country && (<Typography color="error">{errors.country.message}</Typography>)}
@@ -254,11 +277,13 @@ const Index = () => {
               <StateSelect
                 countryid={countryid}
                 onChange={(e) => { setValue("state", e?.name); setstateid(e.id) }}
-                style={{ height: "34px", border: "0px solid #ccc", fontFamily: 'kanit',outline: 'none',boxShadow: 'none',
+                style={{
+                  height: "34px", border: "0px solid #ccc", fontFamily: 'kanit', outline: 'none', boxShadow: 'none',
                   '&:focus': {
                     border: 'none',
                     outline: 'none',
-                  } }}
+                  }
+                }}
                 placeHolder="Select State"
               />
               {errors.state && (<Typography color="error">{errors.state.message}</Typography>)}
@@ -272,11 +297,13 @@ const Index = () => {
                 onChange={(e) => {
                   setValue("city", e?.name);
                 }}
-                style={{ height: "34px", border: "0px solid #ccc", fontFamily: 'kanit',outline: 'none',boxShadow: 'none',
+                style={{
+                  height: "34px", border: "0px solid #ccc", fontFamily: 'kanit', outline: 'none', boxShadow: 'none',
                   '&:focus': {
                     border: 'none',
                     outline: 'none',
-                  } }}
+                  }
+                }}
                 placeHolder="Select City"
               />
             </Grid>

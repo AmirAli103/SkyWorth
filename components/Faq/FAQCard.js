@@ -12,7 +12,7 @@ const FAQCard = ({ title }) => {
 
   return (
     <Box
-    onClick={handleClick}
+      onClick={handleClick}
       sx={{
         border: "1px solid #e0e0e0",
         borderRadius: "4px",
@@ -22,7 +22,7 @@ const FAQCard = ({ title }) => {
         height: "9.5rem",
         position: "relative",
         transition: "all 0.3s ease",
-        cursor:'pointer',
+        cursor: 'pointer',
         "&:hover": {
           boxShadow: "0px 4px 20px rgba(0, 0, 0, 0.3)",
           transform: "translateY(-2px)",

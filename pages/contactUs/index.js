@@ -33,10 +33,10 @@ const Index = () => {
   const theme = createTheme();
   return (
     <Box >
-      <LeftAlignedBoxWithBackground title={" "} Imageheight={{xs:"400px",md:"500px"}} backgroundImage={TopBanner} />
+      <LeftAlignedBoxWithBackground title={" "} Imageheight={{ xs: "400px", md: "500px" }} backgroundImage={TopBanner} />
       <Box>
-      <ThemeProvider theme={theme}>
-            <ContactRow />
+        <ThemeProvider theme={theme}>
+          <ContactRow />
         </ThemeProvider>
         {/* <ContactRow /> */}
         {/* <LocationSection /> */}

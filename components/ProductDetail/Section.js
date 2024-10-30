@@ -22,13 +22,13 @@ const FeatureList = ({ features }) => {
                             listStyleType: 'none'
                         }}>
                             {feature.detail.split(',').map((detailItem, idx) => (
-                                <li key={idx} style={{ color: '#5f5C5F', fontSize: 18, marginBottom: "5px",fontFamily:'kanit',fontWeight:'250' }}>
+                                <li key={idx} style={{ color: '#5f5C5F', fontSize: 18, marginBottom: "5px", fontFamily: 'kanit', fontWeight: '250' }}>
                                     {detailItem.trim()}
                                 </li>
                             ))}
                         </ul>
                     ) : (
-                        <Typography variant="body1" style={{ color: '#5f5C5F', fontSize: 18, marginBottom: "5px",fontFamily:'kanit',fontWeight:'250' }}>
+                        <Typography variant="body1" style={{ color: '#5f5C5F', fontSize: 18, marginBottom: "5px", fontFamily: 'kanit', fontWeight: '250' }}>
                             {feature.detail}
                         </Typography>
                     )}
@@ -49,11 +49,10 @@ const ProductDetailPage = ({ product }) => {
     const handleTabChange = (event, newValue) => {
         setTabValue(newValue);
     };
-    const handleScrollToFeedback = (e) => {
+    const handleScrollToForm = (e, routePath) => {
         e.preventDefault();
-        router.push('/contactUs#feedback-form');
+        router.push(routePath);
     };
-
     return (
         <Box container spacing={4} sx={{ maxWidth: '1200px', margin: { xs: "none", md: 'auto' }, padding: 2 }}>
             <Grid container spacing={4}>
@@ -98,17 +97,17 @@ const ProductDetailPage = ({ product }) => {
                 </Grid>
                 <Grid item xs={12} md={6} sx={{ paddingRight: { md: 0, lg: '7%' }, marginTop: "20px" }}>
                     <Typography variant="body2">
-                        <Link href="/WarrentyPolicy" underline="none" color="inherit" sx={{ marginX: '8px', fontSize: '14px' }} fontWeight={"300"}>
-                            Warranty
+                        <Link href="#" underline="none" color="inherit" sx={{ marginX: '8px', fontSize: '16px' }} fontWeight={"300"} onClick={(e) => handleScrollToForm(e, '/WarrentyPolicy#form')}>
+                            Warranty Registration
                         </Link>
                         |
                         <Link
                             href="#"
                             underline="none"
                             color="inherit"
-                            sx={{ marginLeft: '8px', fontSize: '14px' }}
+                            sx={{ marginLeft: '8px', fontSize: '16px' }}
                             fontWeight="300"
-                            onClick={handleScrollToFeedback}
+                            onClick={(e) => handleScrollToForm(e, '/contactUs#feedback-form')}
                         >
                             Customer Service
                         </Link>
@@ -123,10 +122,12 @@ const ProductDetailPage = ({ product }) => {
                                 Our experts are ready to help you with any questions you have.
                             </Typography>
                             <Box sx={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-between', }}>
-                                <Button href='./../contactUs' sx={{ fontSize: { sm: '10px', md: '12px', lg: '14px' }, padding: { sm: '12px 30px' }, border: '1.5px solid #cccccc', color: '#00000090', borderRadius: 30, marginTop: '10px', alignSelf: 'center','&:hover': {
-                        backgroundColor: '#016AC8',
-                        color: '#fff',
-                    }, }} fontFamily={'SKSans,sans-serif'}>
+                                <Button href='./../contactUs' sx={{
+                                    fontSize: { sm: '10px', md: '12px', lg: '14px' }, padding: { sm: '12px 30px' }, border: '1.5px solid #cccccc', color: '#00000090', borderRadius: 30, marginTop: '10px', alignSelf: 'center', '&:hover': {
+                                        backgroundColor: '#016AC8',
+                                        color: '#fff',
+                                    },
+                                }} fontFamily={'SKSans,sans-serif'}>
                                     Contact Us
                                 </Button>
 

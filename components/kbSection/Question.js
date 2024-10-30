@@ -3,12 +3,12 @@ import { Box, Typography } from "@mui/material";
 import DescriptionIcon from "@mui/icons-material/Description";
 import Link from "next/link";
 
-function Question({ text, description,title }) {
+function Question({ text, description, title }) {
   return (
     <Link
       href={{
         pathname: "/Knowledge-base",
-        query: { text, description,title }, // Pass text and description via query parameters
+        query: { text, description, title }, // Pass text and description via query parameters
       }}
       passHref
     >
@@ -30,7 +30,7 @@ function Question({ text, description,title }) {
         />
         <Typography variant="body1" sx={{ fontSize: 15, color: "#107eec" }}>
           {text}{" "}
-          <span style={{ color: "black" }}> (1 minute read)</span>
+          {/* <span style={{ color: "black" }}> (1 minute read)</span> */}
         </Typography>
       </Box>
     </Link>

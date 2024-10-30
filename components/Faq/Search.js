@@ -10,9 +10,9 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     flexDirection: { xs: "row", sm: "row" },
-    margin:"0px 10px",
-    mt:7,
-    mb:7,
+    margin: "0px 10px",
+    mt: 7,
+    mb: 7,
     position: "relative",
   },
   searchBar: (isFocused) => ({
@@ -84,7 +84,7 @@ function Search() {
     details: '',
   });
   const [formErrors, setFormErrors] = useState({});
- const router=useRouter()
+  const router = useRouter()
 
   const handleSearchClick = () => {
     setSearchClicked(true);
@@ -207,10 +207,10 @@ function Search() {
       </Tooltip>
       <Modal open={openModal} onClose={handleCloseModal} sx={styles.modal}>
         <Paper sx={styles.modalPaper}>
-        <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
-          <Typography variant="h5" align="center" sx={{ flexGrow: 1 }}>Customer Support</Typography>
-          <CloseIcon onClick={handleCloseModal} sx={{ cursor: 'pointer' }} />
-        </Box>
+          <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
+            <Typography variant="h5" align="center" sx={{ flexGrow: 1 }}>Customer Support</Typography>
+            <CloseIcon onClick={handleCloseModal} sx={{ cursor: 'pointer' }} />
+          </Box>
           <TextField
             fullWidth
             variant="outlined"
@@ -241,9 +241,10 @@ function Search() {
               label="Select a Category"
               placeholder="Select a Category"
             >
-              <MenuItem value="red">Red</MenuItem>
-              <MenuItem value="white">White</MenuItem>
-              <MenuItem value="blue">Blue</MenuItem>
+              <MenuItem value="QLED">QLED</MenuItem>
+              <MenuItem value="QLED MINI">QLED MINI</MenuItem>
+              <MenuItem value="UHD">UHD</MenuItem>
+              <MenuItem value="FHD/HD">FHD/HD</MenuItem>
             </Select>
             {formErrors.category && (
               <Typography color="error">{formErrors.category}</Typography>
