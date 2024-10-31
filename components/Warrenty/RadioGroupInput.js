@@ -13,11 +13,11 @@ const RadioGroupInput = ({ label, name, value, onChange,required, options }) => 
           value={option.value} 
           control={<Radio size='small' sx={{ color: 'black', '&.Mui-checked': { color: '#0069c8' } }} />} 
           label={
-            <Typography sx={{ fontFamily: 'Kanit', fontWeight: '400', color: '#0069c8' }}>
+            <Typography sx={{ fontFamily: 'Kanit', fontWeight: '400', color: 'black' }}>
               {option.label}
             </Typography>
           }
-          sx={{ color: '#0069c8' }}
+          sx={{ color: 'black' }}
         />
       ))}
     </RadioGroup>

@@ -22,10 +22,11 @@ const CheckboxGroup = ({ label, options, selectedValues, onChange, required, tex
               <Checkbox
                 size='small'
                 checked={selectedValues}
+                sx={{color:'black'}}
                 onChange={(e) => onChange(e, options)}
               />
             }
-            label={<Typography sx={{ fontFamily: 'Kanit', fontWeight: '400', color: textcolor ? textcolor : '#0069c8' }}>
+            label={<Typography sx={{ fontFamily: 'Kanit', fontWeight: '400', color: textcolor ? textcolor : 'black' }}>
                 {options}
               </Typography>
             }
@@ -38,12 +39,13 @@ const CheckboxGroup = ({ label, options, selectedValues, onChange, required, tex
                 <Checkbox
                   size='small'
                   value={option}
+                  sx={{color:"black"}}
                   checked={selectedValues?.includes(option)}
                   onChange={onChange}
                 />
               }
               label={
-                <Typography sx={{ color: '#0069c8', fontFamily: 'Kanit', fontWeight: '400' }}>
+                <Typography sx={{ color: 'black', fontFamily: 'Kanit', fontWeight: '400' }}>
                   {option}
                 </Typography>
               }
