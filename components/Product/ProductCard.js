@@ -8,7 +8,7 @@ const ProductCard = ({ product, onClick, handleNavigation }) => {
         <Card
             sx={{
                 maxWidth: 345,
-                minHeight: { sm: "220px", md: '330px',lg:"300px",xl:'300px' },
+                minHeight: { sm: "220px", md: '330px', lg: "300px", xl: '300px' },
                 boxShadow: 'none',
                 position: 'relative',
                 overflow: 'hidden',
@@ -18,8 +18,8 @@ const ProductCard = ({ product, onClick, handleNavigation }) => {
                 textAlign: 'center'
             }}
             onClick={handleNavigation}
-            // onMouseEnter={handleMouseEnter}
-            // onMouseLeave={handleMouseLeave}
+        // onMouseEnter={handleMouseEnter}
+        // onMouseLeave={handleMouseLeave}
         >
             <Box
                 sx={{
@@ -46,14 +46,14 @@ const ProductCard = ({ product, onClick, handleNavigation }) => {
                 sx={{
                     flexGrow: 1,
                     cursor: 'pointer',
-                    alignSelf:{xs:"center",md:'flex-start'}
+                    alignSelf: { xs: "center", md: 'flex-start' }
                 }}
             >
-                <Typography 
+                <Typography
                     sx={{
-                        fontSize: { md: "20px", lg: "22px" }, 
-                        textAlign: 'left', 
-                        fontFamily: 'Kanit', 
+                        fontSize: { md: "20px", lg: "22px" },
+                        textAlign: 'center',
+                        fontFamily: 'Kanit',
                         fontWeight: '300',
                         cursor: 'pointer'
                     }}

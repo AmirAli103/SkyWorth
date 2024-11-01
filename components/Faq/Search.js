@@ -241,8 +241,8 @@ function Search() {
               label="Select a Category"
               placeholder="Select a Category"
             >
-              <MenuItem value="QLED">QLED</MenuItem>
               <MenuItem value="QLED MINI">QLED MINI</MenuItem>
+              <MenuItem value="QLED">QLED</MenuItem>
               <MenuItem value="UHD">UHD</MenuItem>
               <MenuItem value="FHD/HD">FHD/HD</MenuItem>
             </Select>
