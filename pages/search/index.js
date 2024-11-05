@@ -5,7 +5,7 @@ import Result from "../../components/Search/Result";
 import SearchBar from "../../components/Search/SearchBar";
 import { products } from "../../components/Product/ProductData.json";
 import ProductCard from "../../components/Product/ProductCard";
-import ProductModal from "../../components/Product/ProductModal"; 
+import ProductModal from "../../components/Product/ProductModal";
 
 const Search = () => {
   const router = useRouter();
@@ -16,7 +16,9 @@ const Search = () => {
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
   const filteredProducts = products.filter((product) =>
-    product.name.toLowerCase().includes(query?.toLowerCase() || "")
+    product.features.some((feature) =>
+      feature.toLowerCase().includes(query?.toLowerCase() || "")
+    )
   );
 
   const handleOpenModal = (product) => {
@@ -29,32 +31,36 @@ const Search = () => {
       prevIndex === 0 ? selectedProduct.image.length - 1 : prevIndex - 1
     );
   };
+
   const handleNextImage = () => {
     setActiveImageIndex((prevIndex) =>
       prevIndex === selectedProduct.image.length - 1 ? 0 : prevIndex + 1
     );
   };
+
   const handleCloseModal = () => {
     setOpen(false);
-    setSelectedProduct(null); 
+    setSelectedProduct(null);
   };
 
   const handleNavigation = (product) => {
     console.log("Navigating to product:", product?.id);
     router.push(`/product/${product.id}`);
   };
+
   const handleThumbnailClick = (index) => setActiveImageIndex(index);
+
   return (
     <Box sx={{ p: 3 }}>
       <Result resultSearch={query} />
       {filteredProducts.length > 0 ? (
         <Grid container spacing={3} sx={{ mt: '8%' }}>
           {filteredProducts.map((product) => (
-            <Grid item xs={12} sm={6} md={4} sx={{textAlign:'-webkit-center'}} key={product.id}>
+            <Grid item xs={12} sm={6} md={4} sx={{ textAlign: '-webkit-center' }} key={product.id}>
               <ProductCard
                 product={product}
                 onClick={() => handleOpenModal(product)}
-                handleNavigation={() => handleNavigation(product)} 
+                handleNavigation={() => handleNavigation(product)}
               />
             </Grid>
           ))}
