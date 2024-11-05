@@ -46,12 +46,12 @@ const ProductCard = ({ product, onClick, handleNavigation }) => {
                 sx={{
                     flexGrow: 1,
                     cursor: 'pointer',
-                    alignSelf: { xs: "center", md: 'flex-start' }
+                    alignSelf: 'center',
                 }}
             >
                 <Typography
                     sx={{
-                        fontSize: { md: "20px", lg: "22px" },
+                        fontSize: "18px",
                         textAlign: 'center',
                         fontFamily: 'Kanit',
                         fontWeight: '300',

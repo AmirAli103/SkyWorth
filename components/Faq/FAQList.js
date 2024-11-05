@@ -12,7 +12,7 @@ const faqData = [
 const FAQList = () => {
   return (
     <Container maxWidth="lg" sx={{ maxWidth: '1600px', margin: '0 auto' }}>
-      <Box sx={{ mx: 2, mb: 7 }}>
+      <Box sx={{ mx: 2, mb: 7, mt: 8 }}>
         <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
           <Box
             sx={{

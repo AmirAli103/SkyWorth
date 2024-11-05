@@ -2,50 +2,48 @@
   {
     "heading": "Warranty Policy",
     "breadcrumb": true,
-    "strongText": "SKYWORTH USA CORPORATION LCD / LED TELEVISION LIMITED WARRANTY",
-    "description1": "Thank you for purchasing SKYWORTH product! Your SKYWORTH LCD / LED Television (“unit”) will be repaired or replaced, at SKYWORTH’s sole discretion, if it proves to be defective in material or workmanship under normal use within the warranty period, effective from the Date of Purchase of original consumer purchase of the unit. This warranty will be effective only when purchased new from an authorized dealer of SKYWORTH and effective only when used in the USMCA. You will be required to provide dealer’s dated bill of sale or delivery ticket as evidence of the Date of Purchase for proof of warranty."
+    "description1": "SKYWORTH Pakistan offers limited warranty to its valued buyers and is also thankful for buying SKYWORTH product which ensures unmatched quality and unbeatable performance."
   },
   {
-    "strongText": "FOR HOW LONG WILL YOUR SKYWORTH TV WARRANTY BE COVERED?"
+    "description1": "To avail the full warranty period the warranty registration must be carried out by filling out details at SKYWORTH website (www.skyworthpakistan.com) within 7 days of purchase."
   },
   {
-    "strongText": "LABOR: ONE (1) Year from the Date of Purchase.",
-    "description1": "(180 days for commercial, rental, or business use)"
+    "description1": "This limited warranty provides repair or replacement of parts and panel at the sole discretion of SKYWORTH Pakistan."
   },
   {
-    "strongText": "PARTS: ONE (1) Year from the Date of Purchase.",
-    "description1": "(180 days for commercial, rental, or business use)"
+    "description1": "This limited warranty provides one-time replacement of faulty parts and panel within two years from the date of purchase if it is proved to be defective in material or craftsmanship under normal use within the warranty period, effective from the date of purchase and warranty registration date."
   },
   {
-    "description1": "Replacement Units and Repair Parts may be new or re-manufactured. Replacement Units and Repair Parts are warranted for the remaining portion of the original unit’s warranty period.\nWhen you return a product to a SKYWORTH service center, you must ship the product in its original packaging or in packaging that affords an equal degree of protection, shipping damage is not covered under SKYWORTH warranty, for that reason SKYWORTH is not responsible for transportation costs to the service center, but SKYWORTH will cover return shipping to the same shipping address provided by customer where the product shipped from."
+    "description1": "There will be no complete replacement of the product whatsoever and only claims within the terms and conditions of the warranty will be entertained."
   },
   {
-    "strongText": "Before Calling for Service:",
-    "bulletPoints": [
-      "Please make sure to have your unit’s model number, serial number, and the date of purchase in hand.",
-      "You might be asked to provide credit card information for a non-warranty service fee, as a deposit for advanced shipment, or cost of unreturned loaner unit.",
-      "SKYWORTH will take responsibility for Parts and service in accordance with the SKYWORTH warranty. Other service requirements will be at the owner’s expense.",
-      "You must obtain an RMA (Return Material Authorization) number before you return any unit to the SKYWORTH authorized service center!"
-    ]
+    "description1": "The decision of the SKYWORTH will be full and final and binding to both buyer and SKYWORTH and cannot be challenged in any court of law."
   },
   {
-    "strongText": "THIS LIMITED WARRANTY DOES NOT APPLY TO:",
-    "bulletPoints": [
-      "Damage resulting from mis-operation, improper installation, or insufficient AC supply.",
-      "Damage in shipping or transit.",
-      "Improper setup or adjustment by the user, or damages caused by improper installation or connection.",
-      "Signal or internet reception problems not caused by the TV.",
-      "Damage from misuse, abuse, negligence, extreme environments.",
-      "Replacement of batteries on the remote control.",
-      "Act of nature or God damages.",
-      "Repair by non-SKYWORTH service centers."
-    ],
-    "endDescription":"The cost of repair or replacement under these excluded circumstances shall be borne by the consumer."
-  },{
-    "contactInfo":"Call 1-888-606-3212 for instructions on getting the defective unit repaired or replaced or visit our website at: www.skyworthusa.com or send us an email to support@skyworthusa.com."
-  },{
-    "USA":true
-  },{
-    "mexcio":true
+    "description1": "This warranty will not cover parts like vent covers, buttons / switches and parts made of plastic, glass or rubber. In case of home service the labor charges and cost of transportation will be borne by the buyer."
+  },
+  {
+    "description1": "The replacement of parts or panel may be carried out with new or re-manufactured, refurbished or repaired parts depending on the availability of parts at the time of claim. The warranty of replacements parts will be warranted for the remaining portion of warranty period."
+  },
+  {
+    "description1": "When you return a product to a SKYWORTH service center, you must ship the product in its original packaging or in packaging that affords an equal degree of protection, shipping damage is not covered under SKYWORTH warranty, for that reason SKYWORTH is not responsible for transportation costs to the service center, but SKYWORTH will cover return shipping to the same shipping address provided by customer where the product shipped from. The warranty for the SKYWORTH product will be reduced to One year for both parts and Panel if used in commercial, rental or business environments."
+  },
+  {
+    "description1": "This warranty will be effective only when purchased new from an authorized dealer of SKYWORTH and effective when used in Pakistan by the original buyer only."
+  },
+  {
+    "description1": "This warranty is non-transferable and warranty claim will not be entertained if the warranty is not registered within 7 days from the purchase date."
+  },
+  {
+    "description1": "It is the responsibility of the buyer to provide proper voltage and check the electrical wiring before operating the SKYWORTH products. Any defect caused because of improper power supply, electrical fluctuations, high/low voltage, use of substandard electrical wiring or voltage stabilizers, mishandling or usage against the reasonably anticipated use will render this warranty void."
+  },
+  {
+    "description1": "There will be no warranty claims entertained in case accident or ill-use. The buyer must place and use the product as per operating instructions/manuals. "
+  },
+  {
+    "description1": "To register the complaint please make sure to provide correct model name model number, size, serial number and the date of purchase as on warranty card to our customer service representative via a phone call, email or WhatsApp as per the following contact details:\nPhone: 042 111 635 635\nToll Free: 0800 111 635\nEmail: cs@skyworthpakistan.com"
+  },
+  {
+    "description1": "This limited warranty does not also apply to signal or internet reception problems not caused by the SKYWORTH TV, replacement of batteries on the remote control, damages due to act of nature or God, repair by non – SKYWORTH service centers. The cost of repair services or replacement under these excluded circumstances shall be borne by the buyer."
   }
 ]

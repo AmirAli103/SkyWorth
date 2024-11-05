@@ -19,10 +19,10 @@ const PrivacyPolicyText = ({
     textwithLink, link
 }) => {
     return (
-        <Box sx={{ textAlign: 'left' }}>
+        <Box sx={{ textAlign: { xs: 'center', sm: 'center', md: 'left' } }}>
             <Container maxWidth={"xl"}>
                 {breadcrumb && <Breadcrumb />}
-                <Box sx={{ mb: 6 }}>
+                <Box sx={{ mb: 3 }}>
                     {heading &&
                         <Typography variant="h1" fontSize={{ xs: '35px', lg: '45px' }} color={"#0c3034"} sx={{ mb: 2, textAlign: termsOfServices ? "center" : "left" }} fontWeight={300} fontFamily={"SKSans, sans-serif"}>
                             {heading}
@@ -180,7 +180,7 @@ const PrivacyPolicyText = ({
                             servicioskyworth@dish.com.mx
                         </Link>
                     </Typography>}
-                    {USA && <Typography sx={{ color: '#0c3034', fontSize: { lg: '17px' }, fontWeight: 300,}}>
+                    {USA && <Typography sx={{ color: '#0c3034', fontSize: { lg: '17px' }, fontWeight: 300, }}>
                         For U.S.A & Canada, please call
                         <Link
                             href={`tel:${1 - 888 - 606 - 3212}`} // Make the phone number clickable

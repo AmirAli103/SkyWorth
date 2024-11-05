@@ -82,9 +82,9 @@ const ProductDetailPage = ({ product }) => {
                             <Tab label="Specifications" sx={{ fontSize: { xs: 10, md: 14 }, fontWeight: 500 }} />
                         </Tabs>
 
-                        <Box sx={{ padding: '16px 30px', borderLeft: '1px solid #e0e0e0', borderRight: '1px solid #e0e0e0', background: 'white', borderBottom: '1px solid #e0e0e0', flex: 1 }}>
+                        <Box sx={{ padding: '16px 30px', borderLeft: '1px solid #e0e0e0', borderRight: '1px solid #e0e0e0', background: 'white', borderBottom: '1px solid #e0e0e0', flex: 1, textAlign: { xs: 'justify', sm: 'justify', } }}>
                             {tabValue === 0 && (
-                                <Typography variant="body1" fontSize={'14px'} fontWeight={"300"} paragraph>
+                                <Typography variant="body1" fontSize={'14px'} fontWeight={"300"} paragraph >
                                     {product?.overview}
                                 </Typography>
 

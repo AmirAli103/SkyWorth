@@ -16,9 +16,9 @@ function Faq() {
   return (
     <Box>
       <LeftAlignedBoxWithBackground title={" "} Imageheight={{ xs: "400px", md: "500px" }} backgroundImage={AboutImage} />
-      <Search />
+      {/* <Search /> */}
       <FAQList />
-      <Refrig />
+      {/* <Refrig /> */}
       <Box sx={{ mt: 7 }}>
         <LeftAlignedBoxWithBackground
           bordershown={true}

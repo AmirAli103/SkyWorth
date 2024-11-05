@@ -51,6 +51,7 @@ const TVProductCard = ({ title, description, image, OnClick }) => {
         textAlign: 'center',
         display: 'flex',
         flexDirection: 'column',
+        alignItems: 'center',
         height: '100%',
       }}
       onClick={() => { handleCardClick(title) }}
@@ -60,7 +61,7 @@ const TVProductCard = ({ title, description, image, OnClick }) => {
         height="auto"
         image={image.src}
         alt={title}
-        sx={{ objectFit: 'contain', padding: {xs: '0px', md: "16px"}, height: '200px' }}
+        sx={{ objectFit: 'contain', padding: { xs: '0px', md: "16px" }, height: '200px' }}
       />
       <CardContent sx={{ flex: 1 }}>
         <Typography gutterBottom sx={{
@@ -83,11 +84,10 @@ const TVProductCard = ({ title, description, image, OnClick }) => {
         sx={{
           marginTop: '16px',
           borderRadius: '10px',
-          padding: { xs: '15px 15px', md: '15px 35px' },
+          padding: '10px 20px',
           borderColor: 'black',
           color: '#000',
-          margin:"0px 40px",
-          fontSize: { xs: "0.8rem", md: '1rem' },
+          fontSize: { xs: "0.8rem", md: '0.8rem' },
           '&:hover': {
             backgroundColor: '#016AC8',
             color: '#fff',
@@ -114,7 +114,7 @@ const ResponsiveTVProductGrid = () => {
       </Typography>
       <Grid container spacing={2} justifyContent={{ xs: "center", }}>
         {tvProducts.map((product, index) => (
-          <Grid item margin={0} sx={{marginBottom:'20px'}} key={index}>
+          <Grid item margin={0} sx={{ marginBottom: '20px' }} key={index}>
             <TVProductCard {...product} />
           </Grid>
         ))}
