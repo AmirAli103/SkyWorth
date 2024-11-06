@@ -15,7 +15,7 @@ const questionsData = {
       popularity: 4,
       views: 90,
       des: [
-       
+
         {
           title: "Dynamic Local Dimming:",
           description: "Local Diming is a way for LED TVs to improve the contrast ratio in dark scenes by dimming backlight zones, making black appear deeper than they normally are without the feature. Dynamic dimming is paired with a brightness range from 20-2000 nits. "
@@ -62,7 +62,7 @@ const questionsData = {
           description: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services just for you.",
         }]
     },
-      //next
+    //next
     {
       text: "Can I mount the TV on the wall?",
       popularity: 3,
@@ -187,7 +187,7 @@ const questionsData = {
       popularity: 5,
       views: 140,
       des: [],
-      bullets:[
+      bullets: [
         "USB 3.0 ports for high-speed data transfer",
         "Bluetooth 5.2 for stable wireless connections",
         "WIFI 802.11a/b/g/n/ac for fast streaming."
@@ -345,7 +345,7 @@ const questionsData = {
       des: [
         {
           description: "While UHD TVs can display lower-resolution content, accessing UHD content is necessary to fully utilize the TV's capabilities. Many streaming services and gaming consoles now offer UHD options."
-        }] 
+        }]
     },
     {
       text: "What are the benefits of UHD?",
@@ -363,7 +363,7 @@ const questionsData = {
       des: [
         {
           description: "Yes, many UHD TVs have upscaling technology that improves the quality of HD content, making it appear sharper and more vibrant on a UHD screen. However, the results can vary based on the TV's processing capabilities."
-        }] 
+        }]
     },
     {
       text: "What is the Google TV platform, and what are its benefits?",
@@ -372,61 +372,61 @@ const questionsData = {
       des: [
         {
           description: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services."
-        }]  
+        }]
     },
     {
       text: "Can I mount the TV on the wall?",
       popularity: 3,
       views: 110,
-      des: "Yes, all our TVs are wall-mount compatible. Check the specifications for recommended mount types and sizes."
+      des: [{ description: "Yes, all our TVs are wall-mount compatible. Check the specifications for recommended mount types and sizes." }]
     },
     {
       text: "Do your TVs support smart features?",
       popularity: 5,
       views: 115,
-      des: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream your favorite shows, browse apps, and connect to smart home devices."
+      des: [{ description: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream your favorite shows, browse apps, and connect to smart home devices." }]
     },
     {
       text: "Can I connect my TV to Wi-Fi?",
       popularity: 4,
       views: 105,
-      des: "Yes, all our smart TVs come with built-in Wi-Fi, allowing you to connect to your home network for streaming and online features."
+      des: [{ description: "Yes, all our smart TVs come with built-in Wi-Fi, allowing you to connect to your home network for streaming and online features." }]
     },
     {
       text: "How do I set up my new TV?",
       popularity: 3,
       views: 90,
-      des: "Setting up your TV is simple! Just connect it to a power source, turn it on via remote, and follow the on-screen instructions."
+      des: [{ description: "Setting up your TV is simple! Just connect it to a power source, turn it on via remote, and follow the on-screen instructions." }]
     },
     {
       text: "Where can I find support if I have issues with my TV?",
       popularity: 5,
       views: 125,
-      des: "For support inquiries, contact customer service. Call 042 111 635 635, toll-free 0800 111 635, or email at CS@skyworthpakistan.com."
+      des: [{ description: "For support inquiries, contact customer service. Call 042 111 635 635, toll-free 0800 111 635, or email at CS@skyworthpakistan.com." }]
     },
     {
       text: "What is 4K?",
       popularity: 5,
       views: 160,
-      des: "SKYWORTH QLED-Mini TV comes with 4K Ultra High Definition, offering a resolution of 3840 x 2160 pixels for an elevated viewing experience."
+      des: [{ description: "SKYWORTH QLED-Mini TV comes with 4K Ultra High Definition, offering a resolution of 3840 x 2160 pixels for an elevated viewing experience." }]
     },
     {
       text: "What is the benefit of 60Hz?",
       popularity: 3,
       views: 85,
-      des: "This refresh rate is well-suited for standard HD content and streaming, providing a balance between quality and affordability."
+      des: [{ description: "This refresh rate is well-suited for standard HD content and streaming, providing a balance between quality and affordability." }]
     },
     {
       text: "What is HDR10?",
       popularity: 4,
       views: 115,
-      des: "HDR10 improves the visual experience by offering more vivid colors, greater contrast, and lifelike visuals, making movies, shows, and games more immersive."
+      des: [{ description: "HDR10 improves the visual experience by offering more vivid colors, greater contrast, and lifelike visuals, making movies, shows, and games more immersive." }]
     },
     {
       text: "What is Dolby Audio?",
       popularity: 4,
       views: 100,
-      des: "Dolby Audio enhances sound quality for a more immersive experience, optimizing audio for clarity and impact."
+      des: [{ title: "Dolby Audio ", description: "is a technology that enhances sound quality for a more immersive audio experience, optimizing audio for clarity and impact." }]
     }
 
   ],
@@ -435,55 +435,66 @@ const questionsData = {
       text: "What is HD and FHD?",
       popularity: 5,
       views: 160,
-      des: "HD (High Definition) typically refers to a resolution of 1280 x 720 pixels. FHD (Full High Definition) has a resolution of 1920 x 1080 pixels, providing a clearer and more detailed picture."
+      des: [{
+        title: "HD (High Definition) ",
+        description: "typically refers to a resolution of 1280 x 720 pixels."
+      },
+      {
+        title: "FHD (Full High Definition) ",
+        description: "has a resolution of 1920 x 1080 pixels, providing a clearer and more detailed picture."
+      }]
     },
     {
       text: "Does this resolution come with Dolby Audio and 60Hz?",
       popularity: 4,
       views: 150,
-      des: "Yes, our HD and FHD TVs come equipped with Dolby Audio for enhanced sound quality and support a refresh rate of 60Hz, ensuring smooth and clear playback for various content types."
+      des: [{
+        description: "Yes, our HD and FHD TVs come equipped with Dolby Audio for enhanced sound quality and support a refresh rate of 60Hz, ensuring smooth and clear playback for various content types."
+      }]
     },
     {
       text: "Can I play games in HD or FHD resolution?",
       popularity: 4,
       views: 145,
-      des: "Yes, many gaming consoles and PC games support HD and FHD resolutions, providing a great gaming experience. Make sure your TV is set to the appropriate resolution for the best performance."
+      des: [{
+        description: "Yes, many gaming consoles and PC games support HD and FHD resolutions, providing a great gaming experience. Make sure your TV is set to the appropriate resolution for the best performance."
+      }]
     },
     {
       text: "What is the Google TV platform, and what are its benefits?",
       popularity: 5,
       views: 120,
-      des: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services."
+      des: [{ description: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services." }]
     },
     {
       text: "Can I mount the TV on the wall?",
       popularity: 3,
       views: 110,
-      des: "Yes, all our TVs are wall-mount compatible. Be sure to check the specifications for recommended mount types and sizes."
+      des: [{ description: "Yes, all our TVs are wall-mount compatible. Be sure to check the specifications for recommended mount types and sizes." }]
     },
     {
       text: "Do your TVs support smart features?",
       popularity: 5,
       views: 115,
-      des: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream your favorite shows and movies, browse apps, and connect to your smart home devices."
+      des: [{ description: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream your favorite shows and movies, browse apps, and connect to your smart home devices." }]
     },
     {
       text: "Can I connect my TV to Wi-Fi?",
       popularity: 4,
       views: 105,
-      des: "Yes, all our smart TVs come with built-in Wi-Fi capabilities, allowing you to connect to your home network for streaming and online features."
+      des: [{ description: "Yes, all our smart TVs come with built-in Wi-Fi capabilities, allowing you to connect to your home network for streaming and online features." }]
     },
     {
       text: "How do I set up my new TV?",
       popularity: 3,
       views: 90,
-      des: "Setting up your TV is simple! Just connect it to a power source, turn it on via remote, and follow the on-screen instructions to complete the setup."
+      des: [{ description: "Setting up your TV is simple! Just connect it to a power source, turn it on via remote, and follow the on-screen instructions to complete the setup." }]
     },
     {
       text: "Where can I find support if I have issues with my TV?",
       popularity: 5,
       views: 125,
-      des: "For support inquiries, contact customer service. Call 042 111 635 635, toll-free 0800 111 635, or email at CS@skyworthpakistan.com."
+      des: [{ description: "For support inquiries, contact customer service. Call 042 111 635 635, toll-free 0800 111 635, or email at CS@skyworthpakistan.com." }]
     }
 
   ],
