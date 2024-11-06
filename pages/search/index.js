@@ -15,12 +15,30 @@ const Search = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
-  const filteredProducts = products.filter((product) =>
-    product.features.some((feature) =>
-      feature.toLowerCase().includes(query?.toLowerCase() || "")
-    )
-  );
-
+  const filterProducts = (products, query) => {
+    const lowercaseQuery = query?.toLowerCase() || "";
+  
+    return products.filter((product) =>
+      product.name.toLowerCase().includes(lowercaseQuery) ||
+  
+      product.overview.toLowerCase().includes(lowercaseQuery) ||
+  
+      product.specifications.some(
+        (spec) =>
+          spec.title.toLowerCase().replace(":", "").includes(lowercaseQuery) ||
+          spec.detail.toLowerCase().replace(":", "").includes(lowercaseQuery)
+      ) ||
+  
+      product.features.some((feature) =>
+        feature.toLowerCase().includes(lowercaseQuery)
+      ) ||
+  
+      product.featurelist.some((feature) =>
+        feature.toLowerCase().includes(lowercaseQuery)
+      )
+    );
+  };
+  const filteredProducts = filterProducts(products, query);
   const handleOpenModal = (product) => {
     setSelectedProduct(product);
     setActiveImageIndex(0);
