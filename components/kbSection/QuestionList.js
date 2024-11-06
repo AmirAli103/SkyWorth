@@ -82,7 +82,7 @@ function QuestionList() {
       </Box>
       {currentQuestions.length > 0 ? (
         currentQuestions.map((question, index) => (
-          <Question key={index} text={question.text} description={question.des} title={title} />
+          <Question key={index} text={question.text} description={question.des} bullets={question.bullets} title={title} />
         ))
       ) : (
         <p>No questions found for this search.</p>

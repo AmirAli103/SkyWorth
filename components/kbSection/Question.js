@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Box, Typography, Collapse } from "@mui/material";
+import { Box, Typography, Collapse, List } from "@mui/material";
 import DescriptionIcon from "@mui/icons-material/Description";
 
-function Question({ text, description, }) {
+function Question({ text, description,bullets }) {
   const [expandedItems, setExpandedItems] = useState({});
   const toggleExpand = (itemId) => {
     setExpandedItems((prevState) => ({
@@ -38,9 +38,23 @@ function Question({ text, description, }) {
       </Box>
 
       <Collapse in={expandedItems[description]} timeout="auto" unmountOnExit>
-        <Typography variant="body2" sx={{ marginTop: 2 }}>
-          {description}
-        </Typography>
+        {description?.map((feature, index) => (
+          <Typography key={index} variant="body2" sx={{ marginTop: "10px" }}>
+            <strong>{feature.title}</strong> {feature.description}
+          </Typography>
+        ))}
+        <List sx={{ listStyleType: 'disc', pl: 4 }}>
+        {bullets?.map((item, index) => (
+          <Typography
+            key={index}
+            component="li"
+            variant="body2"
+            sx={{ display: 'list-item', marginBottom: 0.5 }}
+          >
+            {item}
+          </Typography>
+        ))}
+      </List>
       </Collapse>
     </Box>
   );
