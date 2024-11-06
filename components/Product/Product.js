@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Container } from '@mui/material';
+import { Grid, Container, Drawer, Button, useMediaQuery, Box, IconButton } from '@mui/material';
 import TVImage from './../../assets/perfect-match.jpg';
 import BackgroundImageComponent from './BackgroundImageComponent';
 import Breadcrumb from '../BreadCrumb';
@@ -9,11 +9,15 @@ import ProductModal from './ProductModal';
 import FilterSection from './FilterSection';
 import PaginationComponent from './PaginationComponent';
 import { useRouter } from 'next/router';
-
+import { useTheme } from '@mui/material/styles';
+import CloseIcon from '@mui/icons-material/Close';
 const ProductGrid = () => {
   const router = useRouter();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const [page, setPage] = useState(1);
   const [open, setOpen] = useState(false);
+  const [drawerOpen, setDrawerOpen] = useState(false);
   const productsPerPage = 18;
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
@@ -22,6 +26,7 @@ const ProductGrid = () => {
     productSize: [],
     feature: [],
   });
+  const toggleDrawer = () => setDrawerOpen(!drawerOpen);
 
   const filteredProducts = products.filter((product) => {
     const matchesResolution = selectedFilters.resolution.length === 0 ||
@@ -82,14 +87,45 @@ const ProductGrid = () => {
         title="Discover the Perfect Match!"
         desc="Shop by size, clarity, contrast, and more when selecting the technology and TV that makes your space complete."
       />
+      {isMobile && (
+        <Box sx={{ justifyContent: 'center' }}>
+          <Button onClick={toggleDrawer} sx={{  marginBottom: 2, background: "tranaparent",textDecoration:'underline' }}>
+            Filters
+          </Button>
+        </Box>
+      )}
+
+      <Drawer
+        anchor="right"
+        open={drawerOpen}
+        onClose={toggleDrawer}
+        ModalProps={{ keepMounted: true }}
+        sx={{
+          '& .MuiDrawer-paper': {
+            width: '70vw',
+            maxWidth: '300px',
+            padding: '16px',
+          },
+        }}
+      >
+        <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 1 }}>
+          <IconButton onClick={toggleDrawer} edge="end">
+            <CloseIcon />
+          </IconButton>
+        </Box>
+        <FilterSection onFilterChange={setSelectedFilters} />
+      </Drawer>
+
       <Grid container spacing={4}>
-        <Grid item xs={12} sm={3} marginBottom={{xs:"30px",md:"100px"}}>
-          <FilterSection onFilterChange={setSelectedFilters} />
-        </Grid>
+        {!isMobile && (
+          <Grid item xs={12} sm={3} marginBottom={{ xs: "30px", md: "100px" }}>
+            <FilterSection onFilterChange={setSelectedFilters} />
+          </Grid>
+        )}
         <Grid item xs={12} sm={9}>
           <Grid container spacing={3}>
             {paginatedProducts.map((product) => (
-              <Grid item xs={12} sm={6} md={4} sx={{textAlign:'-webkit-center'}} key={product.id}>
+              <Grid item xs={12} sm={6} md={4} sx={{ textAlign: '-webkit-center' }} key={product.id}>
                 <ProductCard
                   product={product}
                   onClick={() => handleOpenModal(product)}
@@ -98,12 +134,14 @@ const ProductGrid = () => {
               </Grid>
             ))}
           </Grid>
-        {filteredProducts.length>0&&  <PaginationComponent
-            page={page}
-            onPageChange={handleChangePage}
-            totalProducts={filteredProducts.length}
-            productsPerPage={productsPerPage}
-          />}
+          {filteredProducts.length > 0 && (
+            <PaginationComponent
+              page={page}
+              onPageChange={handleChangePage}
+              totalProducts={filteredProducts.length}
+              productsPerPage={productsPerPage}
+            />
+          )}
         </Grid>
       </Grid>
       {selectedProduct && (
