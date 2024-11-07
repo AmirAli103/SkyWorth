@@ -15,7 +15,7 @@ function KbSection() {
   return (
     <Box >
       <LeftAlignedBoxWithBackground title={" "} Imageheight={{ xs: "400px", md: "500px" }} backgroundImage={AboutImage} />
-      <Search />
+      {/* <Search /> */}
       <QuestionList title={title} />
       <Box sx={{ mt: 3 }}>
         <LeftAlignedBoxWithBackground

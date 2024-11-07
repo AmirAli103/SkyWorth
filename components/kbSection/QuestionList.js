@@ -70,6 +70,7 @@ function QuestionList() {
         maxWidth: "950px",
         margin: "0 auto",
         padding: 2,
+        mt: 6
       }}
     >
       <Box sx={{ display: "flex", justifyContent: "flex-end", marginBottom: 3 }}>
