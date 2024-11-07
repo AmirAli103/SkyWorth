@@ -73,14 +73,14 @@ function QuestionList() {
         mt: 6
       }}
     >
-      <Box sx={{ display: "flex", justifyContent: "flex-end", marginBottom: 3 }}>
+      {/* <Box sx={{ display: "flex", justifyContent: "flex-end", marginBottom: 3 }}>
         <select value={sortOption} onChange={handleSortChange} style={{ padding: '8px', fontSize: '14px' }}>
           <option value="default">Default</option>
           <option value="a-z">Sort A-Z</option>
           <option value="popularity">Sort by Popularity</option>
           <option value="views">Sort by Views</option>
         </select>
-      </Box>
+      </Box> */}
       {currentQuestions.length > 0 ? (
         currentQuestions.map((question, index) => (
           <Question key={index} text={question.text} description={question.des} bullets={question.bullets} title={title} />
