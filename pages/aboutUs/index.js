@@ -6,6 +6,7 @@ import AllStat from "../../components/AboutUs/AllStat";
 import LeftAlignedBoxWithBackground from "../../components/Home/LeftAlignedBoxWithBackground";
 import BackgrondImages from './../../assets/aboutImage.jpg'
 import AboutImage from './../../assets/AboutMainImage.jpg';
+import AboutImageSmall from './../../assets/AboutMainImageSmall.jpg';
 import AboutSection from "../../components/AboutUs/AboutSection";
 const sections = [
   {
@@ -25,7 +26,7 @@ const sections = [
 function AboutUs() {
   return (
     <Box>
-       <LeftAlignedBoxWithBackground title={" "} Imageheight={{xs:"400px",md:"500px"}} backgroundImage={AboutImage} />
+      <LeftAlignedBoxWithBackground title={" "} Imageheight={{ xs: "400px", md: "500px" }} backgroundImage={AboutImage} backgroundImageSmall={AboutImageSmall} />
       <BackGround />
       <Grid container spacing={4} justifyContent={"center"} sx={{ padding: { xs: '0px', sm: '40px' } }}>
         {sections.map((section, index) => (

@@ -7,6 +7,7 @@ import BackgrondImages from './../../assets/select.jpg'
 import LeftAlignedBoxWithBackground from "../../components/Home/LeftAlignedBoxWithBackground";
 import { useRouter } from 'next/router';
 import AboutImage from './../../assets/AboutMainImage.jpg';
+import AboutImageSmall from './../../assets/AboutMainImageSmall.jpg';
 
 function Faq() {
   const router = useRouter();
@@ -15,7 +16,7 @@ function Faq() {
   };
   return (
     <Box>
-      <LeftAlignedBoxWithBackground title={" "} Imageheight={{ xs: "400px", md: "500px" }} backgroundImage={AboutImage} />
+      <LeftAlignedBoxWithBackground title={" "} Imageheight={{ xs: "400px", md: "500px" }} backgroundImage={AboutImage} backgroundImageSmall={AboutImageSmall} />
       {/* <Search /> */}
       <FAQList />
       {/* <Refrig /> */}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Grid, Container, Drawer, Button, useMediaQuery, Box, IconButton } from '@mui/material';
 import TVImage from './../../assets/perfect-match.jpg';
+import TVImageSmall from './../../assets/perfect-match-small.jpg';
 import BackgroundImageComponent from './BackgroundImageComponent';
 import Breadcrumb from '../BreadCrumb';
 import ProductCard from './ProductCard';
@@ -55,7 +56,7 @@ const ProductGrid = () => {
   );
 
   const handleChangePage = (event, value) => setPage(value);
-  
+
   const handleCloseModal = () => {
     setOpen(false);
     setSelectedProduct(null);
@@ -68,7 +69,7 @@ const ProductGrid = () => {
   };
 
   const handleThumbnailClick = (index) => setActiveImageIndex(index);
-  
+
   const handlePrevImage = () => {
     setActiveImageIndex((prevIndex) =>
       prevIndex === 0 ? selectedProduct.image.length - 1 : prevIndex - 1
@@ -90,7 +91,8 @@ const ProductGrid = () => {
     <Container maxWidth="xl">
       <Breadcrumb paddingTop={{ xs: '22%', sm: '18%', md: '10%', lg: '5%', xl: '2%' }} />
       <BackgroundImageComponent
-        src={TVImage}
+        backgroundImage={TVImage}
+        backgroundImageSmal={TVImageSmall}
         title="Discover the Perfect Match!"
         desc="Shop by size, clarity, contrast, and more when selecting the technology and TV that makes your space complete."
       />
