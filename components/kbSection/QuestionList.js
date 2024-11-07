@@ -5,6 +5,7 @@ import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import questionsData from "./QuestionData";
 import { useRouter } from "next/router";
+import FAQPageTitle from "../Faq/FAQPageTitle";
 
 function QuestionList() {
   const router = useRouter();
@@ -81,6 +82,8 @@ function QuestionList() {
           <option value="views">Sort by Views</option>
         </select>
       </Box> */}
+      <FAQPageTitle title={title} />
+      <Box sx={{ mt: 4 }}></Box>
       {currentQuestions.length > 0 ? (
         currentQuestions.map((question, index) => (
           <Question key={index} text={question.text} description={question.des} bullets={question.bullets} title={title} />
