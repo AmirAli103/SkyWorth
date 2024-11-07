@@ -35,8 +35,15 @@ const ProductGrid = () => {
     const matchesProductSize = selectedFilters.productSize.length === 0 ||
       selectedFilters.productSize.includes(product.productSize);
 
-      const matchesFeature = selectedFilters.feature.length === 0 ||
-      selectedFilters.feature.some((feature) => product.features.includes(feature));
+    const matchesFeature = selectedFilters.feature.length === 0 ||
+  selectedFilters.feature.some((selectedFeature) =>
+    product.features.some((productFeature) => {
+      const lowerProductFeature = productFeature.toLowerCase();
+      const lowerSelectedFeature = selectedFeature.toLowerCase();
+      const featureParts = lowerSelectedFeature.split(/[/\s]+/);
+      return featureParts.every(part => lowerProductFeature.includes(part));
+    })
+  );
 
     return matchesResolution && matchesProductSize && matchesFeature;
   });
