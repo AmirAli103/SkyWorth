@@ -37,7 +37,7 @@ const sections = [
     },
     {
         title: 'Email Address',
-        description: 'help@skyworthpakistan.com',
+        description: 'cs@skyworthpakistan.com',
         icon: <MailOutlineIcon sx={{ height: 45, width: 45 }} />,
         type: 'email',
     },
