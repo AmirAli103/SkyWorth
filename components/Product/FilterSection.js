@@ -88,7 +88,7 @@ const FilterSection = ({ onFilterChange }) => {
             {filters.feature.map((feature) => (
                 <FormControlLabel
                     key={feature}
-                    style={{ display: 'flex' }}
+                    style={{ display: 'flex',alignItems:'self-start' }}
                     control={
                         <Checkbox
                             checked={selectedFilters.feature.includes(feature)}
