@@ -78,7 +78,7 @@ const questionsData = {
       views: 150,
       des: [
         {
-          description: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream shows and movies, browse apps, and connect to smart home devices."
+          description: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream your favorite shows and movies, browse apps, and connect to your smart home devices."
         }]
     },
     {
@@ -87,7 +87,7 @@ const questionsData = {
       views: 130,
       des: [
         {
-          description: "Yes, all our Google TVs have built-in Wi-Fi, allowing easy connection to your home network for streaming and online features."
+          description: "Yes, all our Google TVs come with built-in Wi-Fi capabilities, allowing you to connect to your home network for streaming and online features."
         }]
     },
     {
@@ -96,7 +96,7 @@ const questionsData = {
       views: 100,
       des: [
         {
-          description: "Setting up your TV is simple! Just connect to a power source, turn it on via remote, and follow the on-screen setup instructions."
+          description: "Setting up your TV is simple! Just connect it to a power source, turn in on via remote and follow the on-screen instructions to complete the setup."
         }]
     },
     {
@@ -140,7 +140,7 @@ const questionsData = {
       views: 160,
       des: [
         {
-          description: "SKYWORTH QLED-Mini TV offers 4K Ultra High Definition with a resolution of 3840 x 2160 pixels, delivering an elevated viewing experience."
+          description: "SKYWORTH QLED-Mini TV comes with 4k Ultra High Definition which offers the resolution of 3840 x 2160 pixels, providing an elevated viewing experience."
         }]
     },
     {
@@ -167,7 +167,7 @@ const questionsData = {
       views: 130,
       des: [
         {
-          description: "SKYWORTH QLED-Mini TVs has revolutionary VRR, certified by AMD FreeSync, provides a tear-free, flicker-free gaming experience and smooth video playback when paired with AMD Radeon graphics and works over HD<MI and DisplayPort effortlessly"
+          description: "SKYWORTH QLED-Mini TVs has revolutionary VRR, certified by AMD FreeSync, provides a tear-free, flicker-free gaming experience and smooth video playback when paired with AMD Radeon graphics and works over HD<MI and DisplayPort effortlessly."
         }]
     },
     {
@@ -188,8 +188,8 @@ const questionsData = {
       views: 140,
       des: [],
       bullets: [
-        "USB 3.0 ports for high-speed data transfer",
-        "Bluetooth 5.2 for stable wireless connections",
+        "USB 3.0 ports for high-speed data transfer.",
+        "Bluetooth 5.2 for stable wireless connections.",
         "WIFI 802.11a/b/g/n/ac for fast streaming."
       ]
     }
@@ -203,7 +203,7 @@ const questionsData = {
       views: 160,
       des: [
         {
-          description: "QLED (Quantum Dot LED) is a display technology that uses quantum dots to enhance color and brightness, providing improved color accuracy and brightness compared to standard LED TVs."
+          description: "QLED (Quantum Dot LED) is a display technology that utilizes quantum dots to enhance color and brightness, offering improved color accuracy and brightness levels compared to standard LED TVs."
         }]
     },
     {
@@ -309,6 +309,9 @@ const questionsData = {
       views: 130,
       des: [
         {
+          description:"Our TVs come equipped with several advanced features:",
+        },
+        {
           title: "Dolby Vision & Atmos:",
           description: "Experience stunning visuals and immersive sound quality for an enhanced viewing experience."
         },
@@ -371,56 +374,56 @@ const questionsData = {
       views: 120,
       des: [
         {
-          description: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services."
+          description: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services just for you."
         }]
     },
     {
       text: "Can I mount the TV on the wall?",
       popularity: 3,
       views: 110,
-      des: [{ description: "Yes, all our TVs are wall-mount compatible. Check the specifications for recommended mount types and sizes." }]
+      des: [{ description: "Yes, all our TVs are wall-mount compatible. Be sure to check the specifications for recommended mount types and sizes." }]
     },
     {
       text: "Do your TVs support smart features?",
       popularity: 5,
       views: 115,
-      des: [{ description: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream your favorite shows, browse apps, and connect to smart home devices." }]
+      des: [{ description: "Yes! Our smart TVs come with the Google TV platform, allowing you to stream your favorite shows and movies, browse apps, and connect to your smart home devices." }]
     },
     {
       text: "Can I connect my TV to Wi-Fi?",
       popularity: 4,
       views: 105,
-      des: [{ description: "Yes, all our smart TVs come with built-in Wi-Fi, allowing you to connect to your home network for streaming and online features." }]
+      des: [{ description: "Yes, all our smart TVs come with built-in Wi-Fi capabilities, allowing you to connect to your home network for streaming and online features." }]
     },
     {
       text: "How do I set up my new TV?",
       popularity: 3,
       views: 90,
-      des: [{ description: "Setting up your TV is simple! Just connect it to a power source, turn it on via remote, and follow the on-screen instructions." }]
+      des: [{ description: "Setting up your TV is simple! Just connect it to a power source, turn in on via remote and follow the on-screen instructions to complete the setup." }]
     },
     {
       text: "Where can I find support if I have issues with my TV?",
       popularity: 5,
       views: 125,
-      des: [{ description: "For support inquiries, contact customer service. Call 042 111 635 635, toll-free 0800 111 635, or email at CS@skyworthpakistan.com." }]
+      des: [{ description: "For any support inquiries, please contact our customer service team for assistance. To call dial 042 111 635 635 and for toll free dial 0800 111 635 or email at CS@skyworthpakistan.com" }]
     },
     {
       text: "What is 4K?",
       popularity: 5,
       views: 160,
-      des: [{ description: "SKYWORTH QLED-Mini TV comes with 4K Ultra High Definition, offering a resolution of 3840 x 2160 pixels for an elevated viewing experience." }]
+      des: [{ description: "SKYWORTH QLED-Mini TV comes with 4k Ultra High Definition which offers the resolution of 3840 x 2160 pixels, providing an elevated viewing experience." }]
     },
     {
       text: "What is the benefit of 60Hz?",
       popularity: 3,
       views: 85,
-      des: [{ description: "This refresh rate is well-suited for standard HD content and streaming, providing a balance between quality and affordability." }]
+      des: [{ description: "This refresh rate is particularly well-suited for watching standard HD content and streaming, making it a reliable choice for those seeking a balance between quality and affordability in their display technology." }]
     },
     {
       text: "What is HDR10?",
       popularity: 4,
       views: 115,
-      des: [{ description: "HDR10 improves the visual experience by offering more vivid colors, greater contrast, and lifelike visuals, making movies, shows, and games more immersive." }]
+      des: [{ description: "HDR10 improves the visual experience by offering more vivid colors, greater contrast, and lifelike visuals, making movies, shows, and games look more immersive on LED TVs." }]
     },
     {
       text: "What is Dolby Audio?",
@@ -464,7 +467,7 @@ const questionsData = {
       text: "What is the Google TV platform, and what are its benefits?",
       popularity: 5,
       views: 120,
-      des: [{ description: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services." }]
+      des: [{ description: "Google TV platform offers a user-friendly interface, personalized content recommendations, and access to thousands of apps and streaming services just for you." }]
     },
     {
       text: "Can I mount the TV on the wall?",
@@ -494,7 +497,7 @@ const questionsData = {
       text: "Where can I find support if I have issues with my TV?",
       popularity: 5,
       views: 125,
-      des: [{ description: "For support inquiries, contact customer service. Call 042 111 635 635, toll-free 0800 111 635, or email at CS@skyworthpakistan.com." }]
+      des: [{ description: "For any support inquiries, please contact our customer service team for assistance. To call dial 042 111 635 635 and for toll free dial 0800 111 635 or email at CS@skyworthpakistan.com" }]
     }
 
   ],

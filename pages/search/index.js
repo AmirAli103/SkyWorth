@@ -15,29 +15,31 @@ const Search = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
-  const filterProducts = (products, query) => {
-    const lowercaseQuery = query?.toLowerCase() || "";
-  
-    return products.filter((product) =>
-      product.name.toLowerCase().includes(lowercaseQuery) ||
-  
-      product.overview.toLowerCase().includes(lowercaseQuery) ||
-  
-      product.specifications.some(
-        (spec) =>
-          spec.title.toLowerCase().replace(":", "").includes(lowercaseQuery) ||
-          spec.detail.toLowerCase().replace(":", "").includes(lowercaseQuery)
-      ) ||
-  
-      product.features.some((feature) =>
-        feature.toLowerCase().includes(lowercaseQuery)
-      ) ||
-  
-      product.featurelist.some((feature) =>
-        feature.toLowerCase().includes(lowercaseQuery)
-      )
-    );
-  };
+const filterProducts = (products, query) => {
+  const lowercaseQuery = query?.toLowerCase() || "";
+  return products.filter((product) =>
+    product.name.toLowerCase().includes(lowercaseQuery) ||
+    product.overview.toLowerCase().includes(lowercaseQuery) ||
+    product.specifications.some(
+      (spec) =>
+        spec.title.toLowerCase().replace(":", "").includes(lowercaseQuery) ||
+        spec.detail.toLowerCase().replace(":", "").includes(lowercaseQuery)
+    ) ||
+    product.features.some((feature) =>
+      feature.toLowerCase().includes(lowercaseQuery)
+    ) ||
+    product.featurelist.some((feature) =>
+      feature.toLowerCase().includes(lowercaseQuery)
+    ) ||
+    (typeof product.productSize === 'string'
+      ? product.productSize.toLowerCase().includes(lowercaseQuery)
+      : Array.isArray(product.productSize) &&
+        product.productSize.some((size) =>
+          size.toLowerCase().includes(lowercaseQuery)
+        )
+    )
+  );
+};
   const filteredProducts = filterProducts(products, query);
   const handleOpenModal = (product) => {
     setSelectedProduct(product);
