@@ -2,20 +2,21 @@ import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 
 const LeftAlignedBoxWithBackground = ({ backgroundImage, backgroundImageSmall, buttonText, title, description, onClick, Imageheight }) => {
+    const isSmallScreenImage = backgroundImageSmall != null;
     return (
         <Box
             sx={{
                 width: '100%',
                 height: Imageheight ? Imageheight : '420px',
-                backgroundImage: backgroundImageSmall != null ? { xs: `url(${backgroundImageSmall.src || backgroundImageSmall})`, sm: `url(${backgroundImageSmall.src || backgroundImageSmall})`, md: `url(${backgroundImage.src || backgroundImage})` } : `url(${backgroundImage.src || backgroundImage})`,
+                backgroundImage: isSmallScreenImage ? { xs: `url(${backgroundImageSmall.src || backgroundImageSmall})`, sm: `url(${backgroundImageSmall.src || backgroundImageSmall})`, md: `url(${backgroundImage.src || backgroundImage})` } : `url(${backgroundImage.src || backgroundImage})`,
                 background: 'linear-gradient(90deg, #000000fe, #0000007 49%, #00000002)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 display: 'flex',
-                alignItems: 'center',
+                alignItems: isSmallScreenImage ? { md: 'center' } : 'center',
                 justifyContent: 'flex-start',
-                paddingLeft: { xs: "5%", md: '10%' },
+                paddingLeft: { xs: "0%", md: '10%' },
             }}
         >
             <Box
@@ -33,6 +34,7 @@ const LeftAlignedBoxWithBackground = ({ backgroundImage, backgroundImageSmall, b
                         color: 'white',
                         fontFamily: 'kanit',
                         marginBottom: '28px',
+                        marginTop: isSmallScreenImage ? { xs: '20%', sm: '15%', md: '0%' } : '',
                         lineHeight: '1.2',
                     }}
                 >
@@ -60,7 +62,7 @@ const LeftAlignedBoxWithBackground = ({ backgroundImage, backgroundImageSmall, b
                             color: 'white',
                             fontFamily: 'kanit',
                             marginBottom: '26px',
-                            lineHeight: '1.5', display: { xs: 'none', md: 'block' }
+                            lineHeight: '1.5', display: isSmallScreenImage ? { xs: 'none', md: 'block' } : 'block'
                         }}
                     >
                         {description}

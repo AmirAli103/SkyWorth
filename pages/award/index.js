@@ -8,11 +8,12 @@ import Image7 from './../../assets/awardImage6.png';
 import Image8 from './../../assets/AwardImage7.png';
 import { Box } from '@mui/material';
 import BackgrondImages from './../../assets/bottom-1.jpg'
+import BackgrondImagesSmall from './../../assets/bottom-1-small.jpg'
 import LeftAlignedBoxWithBackground from '../../components/Home/LeftAlignedBoxWithBackground';
 const App = () => {
   return (
     <Box>
-      <LeftAlignedBoxWithBackground backgroundImage={BackgrondImages} title={"SKYWORTH has grown to be one of the Top Global TV brands in the world."} description={"SKYWORTH won two awards from 2023-2024 Global CE Brands & Global TV Brands during CES. SKYWORTH consistently adheres to its original intention, committed to enabling consumers to deeply experience the charm of technology in their lives."} />
+      <LeftAlignedBoxWithBackground backgroundImage={BackgrondImages} backgroundImageSmall={BackgrondImagesSmall} title={"SKYWORTH has grown to be one of the Top Global TV brands in the world."} description={"SKYWORTH won two awards from 2023-2024 Global CE Brands & Global TV Brands during CES. SKYWORTH consistently adheres to its original intention, committed to enabling consumers to deeply experience the charm of technology in their lives."} />
       <AwardSection
         bgColor="#FFFFFF"
         flexDirection="row-reverse"
