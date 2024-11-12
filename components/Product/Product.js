@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Grid, Container, Drawer, Button, useMediaQuery, Box, IconButton } from '@mui/material';
+import { Grid, Container, Drawer, Button, useMediaQuery, Box, IconButton, Typography } from '@mui/material';
 import TVImage from './../../assets/perfect-match.jpg';
 import TVImageSmall from './../../assets/perfect-match-small.jpg';
 import BackgroundImageComponent from './BackgroundImageComponent';
@@ -132,7 +132,7 @@ const ProductGrid = () => {
           </Grid>
         )}
         <Grid item xs={12} sm={9}>
-          <Grid container spacing={3}>
+          {paginatedProducts?.length>0?<Grid container spacing={3}>
             {paginatedProducts.map((product) => (
               <Grid item xs={12} sm={6} md={4} sx={{ textAlign: '-webkit-center' }} key={product.id}>
                 <ProductCard
@@ -142,7 +142,8 @@ const ProductGrid = () => {
                 />
               </Grid>
             ))}
-          </Grid>
+          </Grid>:<Grid sx={{ textAlign: '-webkit-center',mb:'40px' }} >
+            <Typography sx={{fontSize:"24px",fontFamily:'kanit'}}>No Products</Typography></Grid>}
           {filteredProducts.length > 0 && (
             <PaginationComponent
               page={page}
