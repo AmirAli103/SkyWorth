@@ -48,7 +48,11 @@ const Index = () => {
     formState: { errors },
     reset,
     watch,
-  } = useForm();
+  } = useForm({
+    defaultValues: {
+      country: countryDetails.name
+    }
+  });
   const [TermandCondition, setTermandCondition] = useState(true);
   const [loading, setLoading] = useState(false);
   const [countryid, setCountryid] = useState(167);
@@ -142,7 +146,6 @@ const Index = () => {
   const type = watch("type");
   const size = watch("size");
   const shop = watch("shop")
-
 
   const isFormComplete =
     fullName &&
@@ -258,18 +261,18 @@ const Index = () => {
             </Grid>
             <Grid item xs={12} sm={4} component={motion.div} initial="hidden" animate="visible" transition={{ delay: 0.3 }} variants={animationVariants}>
               <Typography sx={{ fontSize: 16, fontFamily: 'kanit' }}>Country</Typography>
-              <CountrySelect
-                defaultValue={country ? false : countryDetails}
-                onChange={(e) => { setValue("country", e?.name); setCountryid(e.id) }}
-                style={{
-                  height: "34px", border: "0px solid #ccc", fontFamily: 'kanit', outline: 'none', boxShadow: 'none',
-                  '&:focus': {
-                    border: 'none',
-                    outline: 'none',
-                  }
-                }}
-                placeHolder="Select Country"
-              />
+              <div style={{ pointerEvents: 'none' }}>
+                <CountrySelect
+                  defaultValue={countryDetails}
+                  style={{ height: "34px", border: "0px solid #ccc", fontFamily: 'kanit',outline: 'none',boxShadow: 'none',
+                    '&:focus': {
+                      border: 'none',
+                      outline: 'none',
+                    },
+                  }}
+                  placeHolder="Select Country"
+                />
+              </div>
               {errors.country && (<Typography color="error">{errors.country.message}</Typography>)}
             </Grid>
             <Grid item xs={12} sm={4} component={motion.div} initial="hidden" animate="visible" transition={{ delay: 0.3 }} variants={animationVariants}>
