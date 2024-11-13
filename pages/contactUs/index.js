@@ -10,7 +10,6 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
 const Index = () => {
-  console.log('');
   const router = useRouter();
   useEffect(() => {
     const handleRouteChangeComplete = (url) => {
