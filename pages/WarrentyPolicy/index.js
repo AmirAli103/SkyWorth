@@ -107,13 +107,15 @@ const Index = () => {
     formData.append("buyingShop", data?.shop);
     formData.append("promotional", data?.promotionalMaterials);
     try {
-      const response = await fetch("http://ec2-54-221-121-233.compute-1.amazonaws.com:3000/warranties", {
+      const response = await fetch("http://ec2-18-208-163-128.compute-1.amazonaws.com:3000/warranties", {
         method: "POST",
         body: formData,
       });
       const result = await response.json();
       alert(response.ok ? result.message : result.error || "Something went wrong!");
-      if (response.ok) reset();
+      if (response.ok){ reset();
+        window.location.reload();
+      }
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Error submitting form");
