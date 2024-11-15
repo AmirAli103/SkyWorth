@@ -34,7 +34,7 @@ const FileUpload = ({ label, onChange, required }) => {
         setFileName(file.name);
         setFileSize(fileSizeInKB.toFixed(2));
         if (onChange) {
-          onChange(file);
+          onChange(file,event);
         }
       };
       reader.readAsDataURL(file);
