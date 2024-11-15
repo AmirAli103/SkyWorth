@@ -20,6 +20,7 @@ import {
 } from "react-country-state-city";
 import "react-country-state-city/dist/react-country-state-city.css";
 import data from './data.json';
+import SingleSelectGroup from "../../components/Warrenty/SingleSelectOption";
 const Index = () => {
   const { resolution, productSize, brandOptions } = data;
   const countryDetails = {
@@ -84,24 +85,35 @@ const Index = () => {
   const onSubmit = async (data) => {
     console.log(data);
     setLoading(true);
+    const formData = new FormData();
+    formData.append("warrantyImage", data?.warrantyCard?.target?.files[0]);
+    formData.append("receiptImage", data?.purchaseReceipt?.target?.files[0]);
+    formData.append("name", data?.fullName);
+    formData.append("mobile", data?.phone);
+    formData.append("cnic", data?.cnicNumber);
+    formData.append("email", data?.email);
+    formData.append("purchaseDate", data?.purchaseDate);
+    formData.append("address", data?.addressLine1);
+    formData.append("country", data?.country);
+    formData.append("province", data?.state);
+    formData.append("city", data?.city);
+    formData.append("street", data?.addressLine1);
+    formData.append("size", data?.type);
+    formData.append("type", data?.size);
+    formData.append("productModel", data?.productModel);
+    formData.append("serialNumber", data?.serialNumber);
+    formData.append("gender", data?.gender);
+    formData.append("advertisementSource", data?.brandSource);
+    formData.append("buyingShop", data?.shop);
+    formData.append("promotional", data?.promotionalMaterials);
     try {
-      const response = await fetch("/api/send-warranty", {
+      const response = await fetch("http://ec2-54-221-121-233.compute-1.amazonaws.com:3000/warranties", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
+        body: formData,
       });
-
-      if (response.ok) {
-        const result = await response.json();
-        alert(result.message);
-        reset();
-        window.location.reload();
-      } else {
-        const error = await response.json();
-        alert(error.error || "Something went wrong!");
-      }
+      const result = await response.json();
+      alert(response.ok ? result.message : result.error || "Something went wrong!");
+      if (response.ok) reset();
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("Error submitting form");
@@ -111,15 +123,13 @@ const Index = () => {
     }
   };
 
-  const handleFileUpload = (name) => (event) => {
-    const file = event;
+  const handleFileUpload = (name) => (file, event) => {
     if (file) {
       setValue(name, file);
       const reader = new FileReader();
       reader.onloadend = () => {
         const base64String = reader.result;
-        console.log(base64String);
-        setValue(name, base64String);
+        setValue(name, { base64String, target: event.target }); // store target here if needed
       };
       reader.readAsDataURL(file);
     }
@@ -214,7 +224,17 @@ const Index = () => {
                 label="CNIC Number"
                 {...register("cnicNumber", { required: "CNIC Number is required" })}
                 value={cnicNumber}
-                onChange={(e) => setValue("cnicNumber", e.target.value)}
+                onChange={(e) => {
+                  let input = e.target.value.replace(/\D/g, ""); // Remove non-numeric characters
+
+                  if (input.length > 5 && input.length <= 12) {
+                    input = `${input.slice(0, 5)}-${input.slice(5)}`; // Add dash after 5 digits
+                  } else if (input.length === 13) {
+                    input = `${input.slice(0, 5)}-${input.slice(5, 12)}-${input.slice(12)}`; // Add second dash after 12 digits
+                  }
+                  
+                  setValue("cnicNumber", input);
+                }}
               />
               {errors.cnicNumber && (<Typography color="error">{errors.cnicNumber.message}</Typography>)}
             </Grid>
@@ -264,7 +284,8 @@ const Index = () => {
               <div style={{ pointerEvents: 'none' }}>
                 <CountrySelect
                   defaultValue={countryDetails}
-                  style={{ height: "34px", border: "0px solid #ccc", fontFamily: 'kanit',outline: 'none',boxShadow: 'none',
+                  style={{
+                    height: "34px", border: "0px solid #ccc", fontFamily: 'kanit', outline: 'none', boxShadow: 'none',
                     '&:focus': {
                       border: 'none',
                       outline: 'none',
@@ -391,16 +412,14 @@ const Index = () => {
               {errors.gender && (<Typography color="error">{errors.gender.message}</Typography>)}
             </Grid>
             <Grid item xs={12} component={motion.div} initial="hidden" animate="visible" transition={{ delay: 0.3 }} variants={animationVariants}>
-              <CheckboxGroup
+              <SingleSelectGroup
                 label="How did you find out about our brand?"
                 options={brandOptions}
-                {...register("brandSource", {
-                  validate: (value) =>
-                    value?.length > 0 || "Select at least one option",
-                })}
-                value={brandSource}
-                onChange={(e) => setValue("brandSource", e.target.value)}
+                selectedValue={brandSource}
+                onChange={(newValue) => setValue("brandSource", newValue)}
+                required
               />
+
               {errors.brandSource && (<Typography color="error">{errors.brandSource.message}</Typography>)}
             </Grid>
             <Grid item xs={12} component={motion.div} initial="hidden" animate="visible" transition={{ delay: 0.3 }} variants={animationVariants}>
