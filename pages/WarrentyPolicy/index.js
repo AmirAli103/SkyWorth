@@ -107,7 +107,7 @@ const Index = () => {
     formData.append("buyingShop", data?.shop);
     formData.append("promotional", data?.promotionalMaterials);
     try {
-      const response = await fetch("http://ec2-18-208-163-128.compute-1.amazonaws.com:3000/warranties", {
+      const response = await fetch("https://backend.skyworthpakistan.com:3000/warranties", {
         method: "POST",
         body: formData,
       });
