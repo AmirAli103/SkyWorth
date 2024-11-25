@@ -101,7 +101,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className={styles.logo}
-            src={require("../../assets/newlogoNavBar.svg")}
+            src={require("../../assets/newlogoNavBar.png")}
             alt=""
           />
         </Link>
